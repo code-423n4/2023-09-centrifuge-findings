@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "orion",
+  "risk": "3",
+  "title": "User is able to abuse LiquidityPool.transferFrom to take users funds on share token",
+  "issueId": 2,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/2"
+}
