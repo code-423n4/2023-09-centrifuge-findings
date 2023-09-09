@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0xweb3boy",
+  "risk": "2",
+  "title": "Function  convertToShares() will always revert in case _assets >type(uint128).max",
+  "issueId": 8,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/8"
+}
