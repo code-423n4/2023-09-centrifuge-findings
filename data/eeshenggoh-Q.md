@@ -6,3 +6,7 @@ https://github.com/code-423n4/2023-09-centrifuge/blob/512e7a71ebd9ae76384f837204
 
 ## Mitigations
 The contract is PauseAdmin.sol, it should be Pause Admin instead of Delayed Admin
+
+## Wrong Standard of script file name
+
+For the `script/Deployer.sol` it should be `Deployer.s.sol`
