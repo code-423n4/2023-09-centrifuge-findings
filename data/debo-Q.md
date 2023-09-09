@@ -28,3 +28,39 @@ This issue is mostly related to OpenZeppelin libraries.
 2023-09-centrifuge/src/Escrow.sol::24 => SafeTransferLib.safeApprove(token, spender, value);
 2023-09-centrifuge/src/util/SafeTransferLib.sol::36 => function safeApprove(address token, address to, uint256 value) internal {
 ```
+## [L-03] A control flow decision is made based on The block.timestamp environment variable
+Description
+The block.timestamp environment variable is used to determine a control flow decision. Note that the values of variables like coinbase, gaslimit, block number and timestamp are predictable and can be manipulated by a malicious miner. Also keep in mind that attackers know hashes of earlier blocks. Don't use any of those environment variables as sources of randomness and be aware that use of these variables introduces a certain level of trust into miners.
+Vulnerable Code 1
+// https://github.com/code-423n4/2023-09-centrifuge/blob/512e7a71ebd9ae76384f837204216f26380c9f91/src/token/RestrictionManager.sol#L46
+```sol
+require((members[user] >= block.timestamp), "RestrictionManager/destination-not-a-member");
+```
+Exploit Code 1
+```sol
+function testFailMember() public view {
+   RestrictionManager.member(0x0000000000000000000000000000001000000000);
+}
+```
+Vulnerable Code 2
+// https://github.com/code-423n4/2023-09-centrifuge/blob/512e7a71ebd9ae76384f837204216f26380c9f91/src/token/RestrictionManager.sol#L50
+```sol
+        if (members[user] >= block.timestamp) {
+```
+Exploit Code 2
+```sol
+function testFailHasMember() public view {
+   RestrictionManager.hasMember(0x0000000000000000000000000000000400008004);
+}
+```
+Vulnerable Code 3
+// https://github.com/code-423n4/2023-09-centrifuge/blob/512e7a71ebd9ae76384f837204216f26380c9f91/src/token/RestrictionManager.sol#L58
+```sol
+   require(block.timestamp <= validUntil, "RestrictionManager/invalid-valid-until");
+```
+Exploit Code 3
+```sol
+function testFailUpdateMember() public view {
+   RestrictionManager.updateMember(0x0000000000000000000000000000000000000000, 0);
+}
+```
