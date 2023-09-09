@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "orion",
+  "risk": "2",
+  "title": "No access control checks on mint and deposit of LiquidityPool",
+  "issueId": 21,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/21"
+}
