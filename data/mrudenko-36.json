@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "mrudenko",
+  "risk": "3",
+  "title": "Unauthorized Access via Front-running in Auth.sol",
+  "issueId": 36,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/36"
+}
