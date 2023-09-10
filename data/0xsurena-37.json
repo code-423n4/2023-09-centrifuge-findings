@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0xsurena",
+  "risk": "3",
+  "title": "No access control over transferFrom function in the LiquidityPool.sol ",
+  "issueId": 37,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/37"
+}
