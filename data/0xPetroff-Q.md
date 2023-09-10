@@ -13,3 +13,12 @@ function requestDeposit(uint256 assets, address owner) public withApproval(owner
         _;
     }
 ```
+
+
+
+
+
+
+In ``InvestmentManager.sol`` on L662 the ``checkTransferRestriction`` method requires 3 arguments: ``from, to and value``. Following the function throughout the whole protocol we can see that its core functionality is met in ``RestrictionManager.sol`` on L28 where it still accepts the 3 arguments from before, but uses only ``to`` to check whether or not the ``to`` address is a valid investor. 
+
+The 2 arguments (``from`` and ``value``) passed down are not needed nor used throughout the protocol's functionality to check if the user is allowed to invest.
