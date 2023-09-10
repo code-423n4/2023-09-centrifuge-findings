@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0xHelium",
+  "risk": "3",
+  "title": "User funds can be stuck into escrow forever",
+  "issueId": 32,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/32"
+}
