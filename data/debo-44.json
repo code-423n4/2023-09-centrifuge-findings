@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "debo",
+  "risk": "3",
+  "title": "[H-01] Arbitrary Send ERC20 in the InvestmentManager contract within the requestDeposit function",
+  "issueId": 44,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/44"
+}
