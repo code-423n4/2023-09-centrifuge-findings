@@ -241,3 +241,61 @@ Avoiding Rounding Errors: When dealing with integers and fixed-point arithmetic,
 2023-09-centrifuge/src/gateway/Messages.sol::730 => * 25-152: tokenName (string = 128 bytes)
 2023-09-centrifuge/src/gateway/Messages.sol::810 => * 25-40: investmentLimit (uint128 = 16 bytes)
 ```
+## [G-06] Use Do While Loop instead of For Loop to save gas
+The choice between using a Do-While loop or a For loop in Solidity smart contracts can have significant implications for both gas consumption and contract security. This analysis explores the security impact of using a Do-While loop instead of a For loop to optimize gas usage.
+
+Gas Optimization:
+Gas consumption is a critical consideration when deploying and interacting with smart contracts on the Ethereum blockchain. Every operation in a smart contract consumes gas, which is a measure of computational work. Minimizing gas usage is essential to ensure cost-effective contract execution.
+
+Do-While Loop vs. For Loop:
+In Solidity, both Do-While and For loops can be used to iterate through arrays or perform repetitive tasks. The primary difference between the two lies in how they handle loop conditions:
+
+For Loop:
+
+A For loop specifies a fixed number of iterations.
+It is typically used when you know the exact number of iterations required.
+The loop condition is evaluated before each iteration.
+The gas cost for a For loop can be higher, as it requires evaluating the loop condition at the beginning of each iteration.
+Do-While Loop:
+
+A Do-While loop continues to execute until a specified condition becomes false.
+It is useful when you are unsure of the exact number of iterations needed.
+The loop condition is evaluated after each iteration.
+The gas cost for a Do-While loop can be lower if the condition evaluates to false early in the loop.
+Security Implications:
+While using a Do-While loop can save gas in some cases, it can also introduce security risks if not used carefully:
+
+Infinite Loops:
+
+Do-While loops can inadvertently create infinite loops if the exit condition is not correctly defined.
+Infinite loops can lead to contract unresponsiveness and denial of service attacks.
+Gas Limit Exceedance:
+
+Gas limits are imposed on Ethereum transactions to prevent excessive computational work.
+Using a Do-While loop without a well-defined exit condition can result in exceeding the gas limit, causing transaction failures.
+State Changes:
+
+Gas optimizations, such as using a Do-While loop, should not compromise the integrity of state changes within a contract.
+Care must be taken to ensure that the loop's behavior aligns with the contract's intended functionality.
+Recommendations:
+When considering the use of a Do-While loop to save gas, it is crucial to weigh the potential benefits against the security risks. Here are some recommendations:
+
+Thorough Testing:
+
+Test the contract extensively with different input scenarios to ensure that the Do-While loop behaves as expected and does not lead to unintended outcomes.
+Define Clear Exit Conditions:
+
+Always define clear exit conditions for Do-While loops to prevent infinite execution.
+Ensure that the loop will terminate within reasonable gas limits.
+Consider Gas Savings:
+
+Evaluate whether the gas savings from using a Do-While loop are significant enough to justify the potential security risks.
+In some cases, optimizing gas consumption may be secondary to ensuring contract security.
+```txt
+2023-09-centrifuge/src/gateway/Messages.sol::848 => for (uint256 i = 0; i < 128; i++) {
+2023-09-centrifuge/src/gateway/Messages.sol::869 => for (uint8 j = 0; j < i; j++) {
+2023-09-centrifuge/src/token/RestrictionManager.sol::64 => for (uint256 i = 0; i < userLength; i++) {
+2023-09-centrifuge/src/util/Factory.sol::47 => for (uint256 i = 0; i < wards.length; i++) {
+2023-09-centrifuge/src/util/Factory.sol::103 => for (uint256 i = 0; i < trancheTokenWards.length; i++) {
+2023-09-centrifuge/src/util/Factory.sol::117 => for (uint256 i = 0; i < restrictionManagerWards.length; i++) {
+```
