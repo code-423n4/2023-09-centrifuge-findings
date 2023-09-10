@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "degensec",
+  "risk": "2",
+  "title": "No replay attack protection for incoming cross-chain calls",
+  "issueId": 33,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/33"
+}
