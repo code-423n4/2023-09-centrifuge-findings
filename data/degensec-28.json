@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "degensec",
+  "risk": "2",
+  "title": "User does not pay gas for cross-chain messages using Axelar",
+  "issueId": 28,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/28"
+}
