@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "degensec",
+  "risk": "2",
+  "title": "Bridged tokens may be permanently lost",
+  "issueId": 26,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/26"
+}
