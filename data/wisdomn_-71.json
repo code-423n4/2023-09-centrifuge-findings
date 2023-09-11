@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "wisdomn_",
+  "risk": "3",
+  "title": "Unchecked external call in Function mint leads to loss of funds",
+  "issueId": 71,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/71"
+}
