@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "rokinot",
+  "risk": "2",
+  "title": "Wards lose system controls on optimistic rollups when their sequencers go offline",
+  "issueId": 45,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/45"
+}
