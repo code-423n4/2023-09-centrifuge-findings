@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "niloy",
+  "risk": "2",
+  "title": "Invalid Enumeration Values in Message Encoding Can Lead to Unexpected Behavior",
+  "issueId": 78,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/78"
+}
