@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0xPacelli",
+  "risk": "2",
+  "title": "[M-01] Math rounding in InvestmentManager::_calculateTrancheTokenAmount is not ERC-4626 compliant.",
+  "issueId": 82,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/82"
+}
