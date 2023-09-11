@@ -10,3 +10,8 @@
         }
     }
    ```
+
+
+2) Root:
+   The value passed in the constructor of delay could be larger than max. There is no validation.
+   Also, there is no validation for the escrow address which is immutable. The input params should be checked.
