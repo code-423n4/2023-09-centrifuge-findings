@@ -28,4 +28,8 @@ The 2 arguments (``from`` and ``value``) passed down are not needed nor used thr
 
 
 
-In ``Factory.sol`` we can create a Liquidity Pool, initially setting a poolId and trancheId. In ``PoolManager.sol`` on L197 the function ``addTranche()`` is used to create tranches. On L210 and L211 we are re-setting these poolId and trancheId, which have been left from an old design and can be simply removed to improve the simplicity of the code.  
+In ``Factory.sol`` we can create a Liquidity Pool, initially setting a poolId and trancheId. In ``PoolManager.sol`` on L197 the function ``addTranche()`` is used to create tranches. On L210 and L211 we are re-setting these poolId and trancheId, which have been left from an old design and can be simply removed to improve the simplicity of the code.
+
+
+
+Renaming the function [allowPoolCurrency](https://github.com/code-423n4/2023-09-centrifuge/blob/main/src/PoolManager.sol#L179C1-L179C5) to ``allowInvestmentCurrency`` would be more proper and suit it better, as well as clear up some confusion from the auditors POV about the function's functionality.
