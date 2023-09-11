@@ -1,8 +1,0 @@
-{
-  "contest": 285,
-  "handle": "a_kalout",
-  "risk": "2",
-  "title": "`withApproval` is not checking if `msg.sender` is a ward, blocking wards to do actions in `LiquidityPool.sol`",
-  "issueId": 41,
-  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/41"
-}
