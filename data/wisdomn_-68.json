@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "wisdomn_",
+  "risk": "3",
+  "title": "Unchecked external call in function deposit leads to loss of funds.",
+  "issueId": 68,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/68"
+}
