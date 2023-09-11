@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "ravikiranweb3",
+  "risk": "2",
+  "title": "updateTrancheTokenMetadata function of Poolmanager could impact the signature based functionality for the tokens. ",
+  "issueId": 65,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/65"
+}
