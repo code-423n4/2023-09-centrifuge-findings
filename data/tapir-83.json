@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "tapir",
+  "risk": "3",
+  "title": "Gateway tx can be frontrunned and escrow contract can be drained",
+  "issueId": 83,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/83"
+}
