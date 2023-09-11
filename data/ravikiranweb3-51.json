@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "ravikiranweb3",
+  "risk": "2",
+  "title": "Immutable DOMAIN_SEPARATOR assigned with wrong value in the constructor",
+  "issueId": 51,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/51"
+}
