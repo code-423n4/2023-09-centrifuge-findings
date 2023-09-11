@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "MaslarovK",
+  "risk": "3",
+  "title": "Functions does not handle rounding as per ERC4626 expectation.",
+  "issueId": 76,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/76"
+}
