@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "ravikiranweb3",
+  "risk": "2",
+  "title": "Low level calls in LiquidityPool are not scoped to specific underlying functions",
+  "issueId": 64,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/64"
+}
