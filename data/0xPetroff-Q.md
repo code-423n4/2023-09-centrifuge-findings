@@ -32,4 +32,4 @@ In ``Factory.sol`` we can create a Liquidity Pool, initially setting a poolId an
 
 
 
-Renaming the function [allowPoolCurrency](https://github.com/code-423n4/2023-09-centrifuge/blob/main/src/PoolManager.sol#L179C1-L179C5) to ``allowInvestmentCurrency`` would be more proper and suit it better, as well as clear up some confusion from the auditors POV about the function's functionality.
+Renaming the function [allowPoolCurrency](https://github.com/code-423n4/2023-09-centrifuge/blob/main/src/PoolManager.sol#L179C1-L179C5) to ``allowInvestmentCurrency`` would be more proper and suit it better, as well as clear up some potential confusion from the auditors POV about the function's functionality.
