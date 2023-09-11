@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "ravikiranweb3",
+  "risk": "3",
+  "title": "request to deposit or redeem with permit may not work as expected if ERC20 token name is updated",
+  "issueId": 52,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/52"
+}
