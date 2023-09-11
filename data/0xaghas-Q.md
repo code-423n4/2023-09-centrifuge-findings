@@ -10,4 +10,4 @@ https://github.com/code-423n4/2023-09-centrifuge/blob/512e7a71ebd9ae76384f837204
 
 ## Remediation
 
-All declared events should be used within the contract or removed to avoid dead code, also since both **DelayedAdmin** and **PauseAdmin** inherit from **Auth**, moving the event to **Auth** makes it available to any contract that inherits from **Auth**, which could be a useful optimization if the event is intended for broad use. Additional note that **Root** also has event **File** and inherits from **Auth**, so if this event isn't redundant can be removed to Auth for this contract too.
+All declared events should be used within the contract or removed to avoid dead code, also since both **DelayedAdmin** and **PauseAdmin** inherit from **Auth**, moving the event to **Auth** makes it available to any contract that inherits from **Auth**, which could be a useful optimization if the event is intended for broad use. Additionally that **Root** also has an event **File** and inherits from **Auth**, so if this event isn't redundant can be removed to Auth for this contract too.
