@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0xDemon",
+  "risk": "2",
+  "title": "Using the `send` function can cause the token stuck forever or lost",
+  "issueId": 87,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/87"
+}
