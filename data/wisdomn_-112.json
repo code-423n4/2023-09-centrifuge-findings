@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "wisdomn_",
+  "risk": "3",
+  "title": "Function  processWithdraw has a logic error vulnerability which leads to loss of funds.",
+  "issueId": 112,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/112"
+}
