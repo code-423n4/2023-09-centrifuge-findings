@@ -19,3 +19,6 @@
 
 3) LiquidityPool:
    The interfaces declared are not inherited to implementation contract. Example, InvestmentManagerLike is not inherited into the LiquidityPool contract.
+
+4) InvestmentManager:
+   Force typecasting of uint128 to uint256 can result in loss of value due to precision.
