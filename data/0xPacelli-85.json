@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0xPacelli",
+  "risk": "2",
+  "title": "[M-02] LiquidityPool not fully ERC-4626 compliant",
+  "issueId": 85,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/85"
+}
