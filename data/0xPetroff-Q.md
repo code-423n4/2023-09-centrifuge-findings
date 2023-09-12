@@ -33,3 +33,7 @@ In ``Factory.sol`` we can create a Liquidity Pool, initially setting a poolId an
 
 
 Renaming the function [allowPoolCurrency](https://github.com/code-423n4/2023-09-centrifuge/blob/main/src/PoolManager.sol#L179C1-L179C5) to ``allowInvestmentCurrency`` would be more proper and suit it better, as well as clear up some potential confusion from the auditors POV about the function's functionality.
+
+
+
+Having a minimum delay requirement from the input [here](https://github.com/code-423n4/2023-09-centrifuge/blob/main/src/Root.sol#L44C6-L44C6) would benefit the security of the protocol, as accidentaly  setting the delay too low as well as having one of the routers compromised could lead to the pause admin not having enough time to react in case of triggering a malicious message.
