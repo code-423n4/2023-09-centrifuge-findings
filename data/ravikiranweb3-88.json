@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "ravikiranweb3",
+  "risk": "3",
+  "title": "Conversion of shares to Assets and vise versa can be manipulated by LP authorized wards, could lead to losses for investors interacting with the protocol",
+  "issueId": 88,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/88"
+}
