@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "wisdomn_",
+  "risk": "3",
+  "title": "Unchecked return in function processMint leads to locked funds in the escrow.",
+  "issueId": 125,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/125"
+}
