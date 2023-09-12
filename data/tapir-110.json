@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "tapir",
+  "risk": "3",
+  "title": "Admin of the Root contract can bypass timelock ",
+  "issueId": 110,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/110"
+}
