@@ -22,3 +22,7 @@
 
 4) InvestmentManager:
    Force typecasting of uint128 to uint256 can result in loss of value due to precision.
+
+5) AxelarRouter:
+  Gateway for AxelarRouter is not initialized in the constructor. As such, none of the functions of 
+  this contract will be operational until gateway state variable is initialized.
