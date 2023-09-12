@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "Krace",
+  "risk": "3",
+  "title": "Once all `wards` of a contract are removed, the contract becomes permanently incapable of adding any new `wards` and cannot call any functions requiring authentication",
+  "issueId": 99,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/99"
+}
