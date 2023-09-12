@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "IceBear",
+  "risk": "2",
+  "title": "Not implement ERC4626 properly",
+  "issueId": 105,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/105"
+}
