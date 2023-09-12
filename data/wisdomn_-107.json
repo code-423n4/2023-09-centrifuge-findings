@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "wisdomn_",
+  "risk": "3",
+  "title": "Function updatePrice is vulnerable to Transaction Ordering.",
+  "issueId": 107,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/107"
+}
