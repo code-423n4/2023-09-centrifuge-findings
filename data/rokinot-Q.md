@@ -35,6 +35,17 @@ To fix this, consider rewriting as followed:
 
 # Non Critical
 
+### Factory.sol: Token address shouldn't be assumed to be equal in all evm chains
+
+Certain EVM chains, like zkSync, can use a different formula for derivating the address of a deployed contract, meaning if the project decides to deploy on said chain, the comment [here](https://github.com/code-423n4/2023-09-centrifuge/blob/512e7a71ebd9ae76384f837204216f26380c9f91/src/util/Factory.sol#L93) will be inaccurate.
+
+For more information: [zkSync docs](https://era.zksync.io/docs/reference/architecture/differences-with-ethereum.html#create-create2)
+
+Moreover, `msg.sender` will be a different address if a transaction to deploy the tranche token is sent to a sequencer on an optimistic rollup, from the L1 as mentioned in my other issue.
+
+
+For more information: [Arbitrum docs](https://docs.arbitrum.io/arbitrum-ethereum-differences#l1-to-l2-messages)
+
 ### Auth.sol: Consider adding a check to prevent the last ward from calling deny()
 
 If the contract deployer calls `deny()` on itself, the pausing functions are lost, as there are no more wards to execute their functions.
