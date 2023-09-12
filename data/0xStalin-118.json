@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0xStalin",
+  "risk": "2",
+  "title": "Investors claiming their maxDeposit by using the LiquidityPool.deposit() will cause that other users won't be able to claim their maxDeposit/maxMint",
+  "issueId": 118,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/118"
+}
