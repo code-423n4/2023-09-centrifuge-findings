@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "XDZIBECX",
+  "risk": "3",
+  "title": "Unverified ERC20 Token Address in isAllowedAsPoolCurrency",
+  "issueId": 295,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/295"
+}
