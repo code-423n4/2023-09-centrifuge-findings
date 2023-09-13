@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "passion",
+  "risk": "3",
+  "title": "The liquidity pool is vunerable to first depositor inflation attack",
+  "issueId": 292,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/292"
+}
