@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "Draiakoo",
+  "risk": "2",
+  "title": "Assets can be locked in escrow contract if an asset has blacklisting or pausing features",
+  "issueId": 197,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/197"
+}
