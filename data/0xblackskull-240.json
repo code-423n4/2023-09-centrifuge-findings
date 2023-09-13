@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0xblackskull",
+  "risk": "2",
+  "title": "Boolean check is not verify if user is allowed to hold the restricted tranche tokens",
+  "issueId": 240,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/240"
+}
