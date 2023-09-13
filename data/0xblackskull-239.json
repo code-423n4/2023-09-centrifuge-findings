@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0xblackskull",
+  "risk": "2",
+  "title": "Boolean check (`poolManager.isAllowedAsPoolCurrency`) is not verify if liquidity pool currency is supported by the Centrifuge pool.",
+  "issueId": 239,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/239"
+}
