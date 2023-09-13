@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "ladboy233",
+  "risk": "2",
+  "title": "LiquidityPool#burn cannot be called properly because tranche contract does not have burn function",
+  "issueId": 255,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/255"
+}
