@@ -17,3 +17,18 @@ https://github.com/code-423n4/2023-09-centrifuge/blob/512e7a71ebd9ae76384f837204
 
 https://github.com/code-423n4/2023-09-centrifuge/blob/512e7a71ebd9ae76384f837204216f26380c9f91/src/token/ERC20.sol#L106
 ```
+
+## Duplicate Functions
+Both functions acts similarly, there isn't a need for two functions. One will do, which also save deployment gas fees.
+```
+    function member(address user) public view {
+        require((members[user] >= block.timestamp), "RestrictionManager/destination-not-a-member");
+    }
+
+    function hasMember(address user) public view returns (bool) {
+        if (members[user] >= block.timestamp) {
+            return true;
+        }
+        return false;
+    }
+```
