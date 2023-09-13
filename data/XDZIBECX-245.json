@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "XDZIBECX",
+  "risk": "2",
+  "title": "r overflow during the conversion from uint256 to uint128 leads to unintended behavior, where the contract interprets the attacker's input ",
+  "issueId": 245,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/245"
+}
