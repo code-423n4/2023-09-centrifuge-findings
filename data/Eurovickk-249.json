@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "Eurovickk",
+  "risk": "3",
+  "title": "Potential Reentrancy Issue",
+  "issueId": 249,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/249"
+}
