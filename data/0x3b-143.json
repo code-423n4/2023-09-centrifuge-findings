@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0x3b",
+  "risk": "2",
+  "title": "You can deposit for other users really small amount to DoS them",
+  "issueId": 143,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/143"
+}
