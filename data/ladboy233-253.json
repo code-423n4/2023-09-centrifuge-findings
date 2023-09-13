@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "ladboy233",
+  "risk": "3",
+  "title": "LiquidityPool # transferFrom / transfer / approve should validate the 4 bytes selector and add access control instead of performing arbitrary low level call",
+  "issueId": 253,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/253"
+}
