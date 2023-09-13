@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "HChang26",
+  "risk": "2",
+  "title": "Inconsistent `_calculateTrancheTokenAmount()` and `_calculateCurrencyAmount()` calculation",
+  "issueId": 293,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/293"
+}
