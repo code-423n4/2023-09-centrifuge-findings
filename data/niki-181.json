@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "niki",
+  "risk": "2",
+  "title": "The `detectTransferRestriction` should be added in redeem function because a user can send currency  tokens to blocked receiver",
+  "issueId": 181,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/181"
+}
