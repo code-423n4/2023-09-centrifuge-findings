@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "BARW",
+  "risk": "3",
+  "title": "Missing check in `PoolManager.addTranche()` if the decimals for a new tranch are <= `MAX_CURRENCY_DECIMALS` can lead to stuck stable coins",
+  "issueId": 219,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/219"
+}
