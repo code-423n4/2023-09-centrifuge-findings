@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "foxb868",
+  "risk": "3",
+  "title": "Reentrancy vulnerability in the `deposit` function of LiquidityPool contract.",
+  "issueId": 274,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/274"
+}
