@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "zzebra83",
+  "risk": "2",
+  "title": "InvestmentManager - processDeposit can fail due to precision error",
+  "issueId": 155,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/155"
+}
