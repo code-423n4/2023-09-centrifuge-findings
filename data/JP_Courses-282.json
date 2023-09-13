@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "JP_Courses",
+  "risk": "3",
+  "title": "Root::relyContract() - Potential discrepancy between a dev comment and the implementation of relyContract() function, which would lead to bypassing of timelock delay functionality when making an arbitrary address a ward on any contract.",
+  "issueId": 282,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/282"
+}
