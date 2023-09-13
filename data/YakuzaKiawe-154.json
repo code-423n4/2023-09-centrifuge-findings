@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "YakuzaKiawe",
+  "risk": "2",
+  "title": "ERC20 is susceptible to signature replay attack",
+  "issueId": 154,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/154"
+}
