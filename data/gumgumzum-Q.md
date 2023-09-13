@@ -1,0 +1,1 @@
+## `ERC20@_isValidSignature` can revert if the target contract does not implement `EIP-1271` correctly as described in [CVE-2022-31172](https://github.com/advisories/GHSA-4g63-c64m-25w9)
