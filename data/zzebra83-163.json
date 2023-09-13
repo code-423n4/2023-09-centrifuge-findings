@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "zzebra83",
+  "risk": "2",
+  "title": "withApproval modifier in liquiditypool does not allow admins to call functions",
+  "issueId": 163,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/163"
+}
