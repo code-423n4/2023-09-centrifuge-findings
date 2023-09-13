@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "wisdomn_",
+  "risk": "2",
+  "title": "Function convertToAssets has an unchecked return vulnerability.",
+  "issueId": 162,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/162"
+}
