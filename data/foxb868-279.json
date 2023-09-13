@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "foxb868",
+  "risk": "3",
+  "title": "Reentrancy Vulnerability in LiquidityPool's `redeem` Function.",
+  "issueId": 279,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/279"
+}
