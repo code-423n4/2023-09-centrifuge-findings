@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0xPetroff",
+  "risk": "3",
+  "title": "Function ``collectDeposit()`` does not update the caller's balance at the time of execution.",
+  "issueId": 229,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/229"
+}
