@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "twicek",
+  "risk": "2",
+  "title": "An attacker can block users from retrieving their full shares using the `mint` or `deposit` functions.",
+  "issueId": 283,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/283"
+}
