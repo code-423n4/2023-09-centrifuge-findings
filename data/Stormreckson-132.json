@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "Stormreckson",
+  "risk": "2",
+  "title": "Incorrect logic in redemption process may lead to locking of users funds ",
+  "issueId": 132,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/132"
+}
