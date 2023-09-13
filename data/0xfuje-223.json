@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0xfuje",
+  "risk": "3",
+  "title": "`Router` and `Gateway` access control can be bypassed which leads to devastating consequences",
+  "issueId": 223,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/223"
+}
