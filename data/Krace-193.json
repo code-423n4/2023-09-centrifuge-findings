@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "Krace",
+  "risk": "3",
+  "title": "Permanently DoS in `_toPriceDecimals` and `_fromPriceDecimals` if the `trancheTokenDecimals` of `LiquidityPool` is set to a value that is larger than `PRICE_DECIMALS`",
+  "issueId": 193,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/193"
+}
