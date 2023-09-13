@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "castle_chain",
+  "risk": "3",
+  "title": "rounding down the deposit price will result in the users get more Tranche tokens form the escrow than they are supposed to get , which will make the protocol insolvent and reach a bad state .",
+  "issueId": 287,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/287"
+}
