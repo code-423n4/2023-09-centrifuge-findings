@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "Stormreckson",
+  "risk": "2",
+  "title": "Lack of Paused State Check in Critical Functions in liquidityPool.sol contract ",
+  "issueId": 208,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/208"
+}
