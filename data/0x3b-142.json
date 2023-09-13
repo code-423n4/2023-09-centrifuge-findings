@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0x3b",
+  "risk": "2",
+  "title": "If users membership runs out in the middle of a deposit the price will go stale ",
+  "issueId": 142,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/142"
+}
