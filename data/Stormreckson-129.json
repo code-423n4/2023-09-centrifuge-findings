@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "Stormreckson",
+  "risk": "2",
+  "title": "LiquidityPool.sol isn't fully Erc4626 complaint",
+  "issueId": 129,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/129"
+}
