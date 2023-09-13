@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "rvierdiiev",
+  "risk": "2",
+  "title": "Messages._bytes32ToString and Messages._bytes128ToString will not work with utf-8 NUL symbol",
+  "issueId": 184,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/184"
+}
