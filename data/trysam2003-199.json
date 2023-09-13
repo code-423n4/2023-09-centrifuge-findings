@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "trysam2003",
+  "risk": "2",
+  "title": "Unrestricted Self-Transfer in transferFrom() Function: Potential for Accidental Transfers from User's Own Account Instead of an Approved Account",
+  "issueId": 199,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/199"
+}
