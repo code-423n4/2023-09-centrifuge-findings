@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "tapir",
+  "risk": "2",
+  "title": "Compromised Gateway can mint infinite tranche tokens to non KYC addresses",
+  "issueId": 200,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/200"
+}
