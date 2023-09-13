@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "eeshenggoh",
+  "risk": "3",
+  "title": "Flawed protocol causes users to not be refunded during the epoch",
+  "issueId": 220,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/220"
+}
