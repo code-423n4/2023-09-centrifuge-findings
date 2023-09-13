@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "Krace",
+  "risk": "3",
+  "title": "`InvestmentManager` takes `msg.sender` as `liquidityPool` directly, which could be exploited to  disrupting the contract's logic",
+  "issueId": 140,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/140"
+}
