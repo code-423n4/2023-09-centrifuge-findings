@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0xfuje",
+  "risk": "2",
+  "title": "Tranche tokens can be forever lost in edge cases during cross-chain transfer",
+  "issueId": 250,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/250"
+}
