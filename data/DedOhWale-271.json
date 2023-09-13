@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "DedOhWale",
+  "risk": "2",
+  "title": "Front-running `approve()` and `permit()` allows double spending",
+  "issueId": 271,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/271"
+}
