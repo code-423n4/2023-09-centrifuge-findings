@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "niki",
+  "risk": "3",
+  "title": "In `deployLiqudityPool` the approve function is incorrect used ",
+  "issueId": 171,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/171"
+}
