@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "MatricksDeCoder",
+  "risk": "2",
+  "title": "Protocol is susceptible to ERC4626 vaults inflation attack by early depositors/deposits ",
+  "issueId": 202,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/202"
+}
