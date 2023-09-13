@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0xfuje",
+  "risk": "2",
+  "title": "`DOMAIN_SEPARATOR` of `ERC20` is incorrectly calculated and used",
+  "issueId": 247,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/247"
+}
