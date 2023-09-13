@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "MatricksDeCoder",
+  "risk": "2",
+  "title": "Protocol wont work with tokens that can block or prevent transfers e.g Pausable, Blacklist, Blocking etc",
+  "issueId": 188,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/188"
+}
