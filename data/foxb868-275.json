@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "foxb868",
+  "risk": "2",
+  "title": "Lack of SafeERC20 and Error Handling in 'mint' and 'burn' Functions.",
+  "issueId": 275,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/275"
+}
