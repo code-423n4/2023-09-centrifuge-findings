@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "albahaca",
+  "risk": "2",
+  "title": "Unnecessary Gas Costs Due to Lack of Duplicate Address Check in Wards Array",
+  "issueId": 262,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/262"
+}
