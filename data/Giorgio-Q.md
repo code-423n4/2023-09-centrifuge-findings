@@ -13,4 +13,3 @@ https://github.com/code-423n4/2023-09-centrifuge/blob/512e7a71ebd9ae76384f837204
 Consider adding a check making sure the `delay` value doesn't exceed `MAX_DELAY`
 `require(_delay < MAX_DELAY, "delay value too big")`
 
-
