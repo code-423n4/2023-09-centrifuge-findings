@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "ladboy233",
+  "risk": "2",
+  "title": "Axelar cross-chain call will not be relayed because the execution fee is not paid",
+  "issueId": 231,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/231"
+}
