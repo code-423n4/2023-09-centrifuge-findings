@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "niki",
+  "risk": "3",
+  "title": "The developers wants when you are redeeming tokens back, that toy can receive them on another EOA or a contract",
+  "issueId": 176,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/176"
+}
