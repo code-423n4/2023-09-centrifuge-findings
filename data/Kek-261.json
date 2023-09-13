@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "Kek",
+  "risk": "2",
+  "title": "`PoolManager` can be constructed/deployed without setting `investmentManager` which is also not validated in `PoolManager.deployTranche()`, a new TrancheToken with no investmentManager can be deployed",
+  "issueId": 261,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/261"
+}
