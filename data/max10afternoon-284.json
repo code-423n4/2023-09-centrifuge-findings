@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "max10afternoon",
+  "risk": "2",
+  "title": "Lack of slippage control on Deposit/Mint and Redeem/Withdraw",
+  "issueId": 284,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/284"
+}
