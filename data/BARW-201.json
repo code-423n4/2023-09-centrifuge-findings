@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "BARW",
+  "risk": "3",
+  "title": "Pausing the `Root` does not pause the withdrawal of stable coins that have been sent to userEscrow",
+  "issueId": 201,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/201"
+}
