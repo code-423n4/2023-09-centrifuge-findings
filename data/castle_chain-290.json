@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "castle_chain",
+  "risk": "3",
+  "title": "wrong check of the caller on the Axelar Router , will always revert and disable all the functionality of sending the messages to the  gateway and the messaging system of the protocol  , which will disable the protocol functions ",
+  "issueId": 290,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/290"
+}
