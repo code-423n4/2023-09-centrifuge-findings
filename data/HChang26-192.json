@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "HChang26",
+  "risk": "2",
+  "title": "Lack of approval will brick `requestDeposit()` on LiquidityPool.sol",
+  "issueId": 192,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/192"
+}
