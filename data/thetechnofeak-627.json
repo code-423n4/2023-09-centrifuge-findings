@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "thetechnofeak",
+  "risk": "2",
+  "title": " \"Lack of Validation in updatePrice Function Puts Contract at Risk.\"",
+  "issueId": 627,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/627"
+}
