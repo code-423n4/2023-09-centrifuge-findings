@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0xStalin",
+  "risk": "2",
+  "title": "Spender can prevent operations to decrease its allowance and effectively spends all the granted allowance even though the owner was trying to remove the allowance.",
+  "issueId": 361,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/361"
+}
