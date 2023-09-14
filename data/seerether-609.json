@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "seerether",
+  "risk": "3",
+  "title": " Relying on string comparisons to determine which parameter to update in the file() function is brittle and could lead to unintended consequences.",
+  "issueId": 609,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/609"
+}
