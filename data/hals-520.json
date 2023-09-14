@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "hals",
+  "risk": "2",
+  "title": "`Root.executeScheduledRely` function missing pause check",
+  "issueId": 520,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/520"
+}
