@@ -29,3 +29,13 @@ Users on cheap chains can call `PoolManager.transferTrancheTokensToCentrifuge` w
 
 ## Recommended Mitigation Steps
 Do not allow bridge 0 tokens.
+
+## QA-03. increaseAllowance/decreaseAllowance may not work with some wallets.
+
+### Details
+Recently, open zeppelin has remove `increaseAllowance/decreaseAllowance` function form ERC20 contract.
+This is because they are not described in the standard and [as described in the disscussion](https://github.com/OpenZeppelin/openzeppelin-contracts/issues/4583#issuecomment-1710297819) such function may not work well with some wallets that are trying to limit user's activity(spending/approving).
+
+But ERC20 of centrifuge protocol, [still has such functions](https://github.com/code-423n4/2023-09-centrifuge/blob/main/src/token/ERC20.sol#L139-L159).
+## Recommended Mitigation Steps
+Think, if it's worth removing them as well.
