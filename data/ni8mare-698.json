@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "ni8mare",
+  "risk": "2",
+  "title": "requestDeposit can be used to congest the system",
+  "issueId": 698,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/698"
+}
