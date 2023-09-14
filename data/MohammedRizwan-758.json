@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "MohammedRizwan",
+  "risk": "2",
+  "title": "`LiquidityPool.sol` is not ERC-4626 compatible at few functions",
+  "issueId": 758,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/758"
+}
