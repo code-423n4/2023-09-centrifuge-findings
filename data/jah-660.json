@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "jah",
+  "risk": "2",
+  "title": "missing check in root.sol constructor ",
+  "issueId": 660,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/660"
+}
