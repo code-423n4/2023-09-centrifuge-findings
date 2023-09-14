@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "passion",
+  "risk": "3",
+  "title": "Protocol does not protect against spam/DOS",
+  "issueId": 317,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/317"
+}
