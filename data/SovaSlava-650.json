@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "SovaSlava",
+  "risk": "2",
+  "title": "User can lost his token while transfer them to other chain and receiver is not a member",
+  "issueId": 650,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/650"
+}
