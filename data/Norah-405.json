@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "Norah",
+  "risk": "2",
+  "title": "EVM Chain Compatibility Issue: Solidity 0.8.21's PUSH0 Opcode Vulnerability",
+  "issueId": 405,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/405"
+}
