@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "Tendency",
+  "risk": "2",
+  "title": "Missing a Functionality for Disallowing an Already Allowed Currency in PoolManager ",
+  "issueId": 504,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/504"
+}
