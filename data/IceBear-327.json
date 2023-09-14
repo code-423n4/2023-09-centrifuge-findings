@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "IceBear",
+  "risk": "2",
+  "title": "In _newRestrictionManager, when executing updateMember, the expiration is set to type(uint256).max.",
+  "issueId": 327,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/327"
+}
