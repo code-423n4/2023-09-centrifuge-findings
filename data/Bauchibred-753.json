@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "Bauchibred",
+  "risk": "2",
+  "title": "The current axelar router's implementation can't interact with any calls that requires native tokens",
+  "issueId": 753,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/753"
+}
