@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0xnev",
+  "risk": "2",
+  "title": "[M-05] `LiquidityPool.withApproval()`: Wards not checked, not allowing authorized admin to call functions",
+  "issueId": 559,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/559"
+}
