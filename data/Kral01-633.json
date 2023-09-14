@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "Kral01",
+  "risk": "3",
+  "title": "Any user can drain the escrow contract by calling `decreaseDepositRequest` with more amount than they deposited into the escrow while requesting.",
+  "issueId": 633,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/633"
+}
