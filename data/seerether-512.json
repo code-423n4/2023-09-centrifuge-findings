@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "seerether",
+  "risk": "3",
+  "title": "Vulnerability if trancheTokensPayout is 0 in the handleExecutedCollectInvest function.",
+  "issueId": 512,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/512"
+}
