@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "HChang26",
+  "risk": "2",
+  "title": "`_fromPriceDecimals()` can return 0 value, leading to incorrect `_decreaseDepositLimits()` calculation",
+  "issueId": 321,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/321"
+}
