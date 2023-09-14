@@ -476,3 +476,21 @@ File: src/LiquidityPool.sol
 98:         require(msg.sender == owner, "LiquidityPool/no-approval");
 
 ```
+### [L-5] `ECRECOVER` MAY RETURN EMPTY ADDRESS
+
+#### Description:
+
+There is a common issue that ecrecover returns empty (0x0) address when the signature is invalid. function `_verifySigner` should check that before returning the result of ecrecover.
+
+#### **Proof Of Concept**
+
+```solidity
+File: src/token/ERC20.sol
+
+206:             if (signer == ecrecover(digest, v, r, s)) {
+
+```
+
+#### Recommended Mitigation Steps:
+
+See the solution here: https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v3.4.0/contracts/cryptography/ECDSA.sol#L68
