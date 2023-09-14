@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "sm-stack",
+  "risk": "3",
+  "title": "Attacker can bypass access control in LiquidityPool::requestDepositWithPermit function for currencies with fallback function.",
+  "issueId": 438,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/438"
+}
