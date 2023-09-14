@@ -49,3 +49,24 @@ https://github.com/code-423n4/2023-09-centrifuge/blob/main/src/gateway/Messages.
         return string(bytesArray);
     }
 ```
+### Report 4:
+Incomplete comment description in [L233](https://github.com/code-423n4/2023-09-centrifuge/blob/main/src/gateway/Messages.sol#L233) of the Messages.sol contract. As seen in the correction in the code below it should be "(16 bytes = 2 bytes)" not "(16 bytes)"
+https://github.com/code-423n4/2023-09-centrifuge/blob/main/src/gateway/Messages.sol#L233
+```solidity
+  /**
+     * Update a Tranche token's price
+     *
+     * 0: call type (uint8 = 1 byte)
+     * 1-8: poolId (uint64 = 8 bytes)
+---   * 9-24: trancheId (16 bytes)
++++   * 9-24: trancheId (16 bytes = 2 bytes)
+     * 25-40: currency (uint128 = 16 bytes)
+     * 41-56: price (uint128 = 16 bytes)
+     */
+    function formatUpdateTrancheTokenPrice(uint64 poolId, bytes16 trancheId, uint128 currencyId, uint128 price)
+        internal
+        pure
+        returns (bytes memory)
+    {
+...
+```
