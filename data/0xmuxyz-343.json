@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0xmuxyz",
+  "risk": "2",
+  "title": "More amount of TrancheToken than the actual amount would be minted/burned if a depeg event of currencies (i.e. USDC, USDT) would occur",
+  "issueId": 343,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/343"
+}
