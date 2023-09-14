@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0xbrett8571",
+  "risk": "3",
+  "title": "Dos in the withdraw function can enter an infinite loop.",
+  "issueId": 485,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/485"
+}
