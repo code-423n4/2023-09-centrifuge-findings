@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0xG0P1",
+  "risk": "2",
+  "title": "processRedeem always reverts if _trancheTokenAmount > orderbook[user][liquidityPool].maxRedeem",
+  "issueId": 655,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/655"
+}
