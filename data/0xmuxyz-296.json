@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0xmuxyz",
+  "risk": "3",
+  "title": "Due to lack of slippage protection, the amount of the TrancheToken that a depositor can receive will be much less than the depositor expected",
+  "issueId": 296,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/296"
+}
