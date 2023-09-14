@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "seerether",
+  "risk": "3",
+  "title": "Users can have their funds locked indefinitely in escrow if deposits fail or orders are not fulfilled.",
+  "issueId": 365,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/365"
+}
