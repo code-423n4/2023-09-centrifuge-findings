@@ -70,3 +70,14 @@ Version 3 is the current version of the Dai stablecoin, which is the basis for t
 ### Root.sol: Consider adding a check to see whether the rely address is a contract
 
 The function is intended to assign values to contracts only. The protocol may want to consider adding a check to see if the byte code size is higher than zero to guarantee the address is in fact a contract.
+
+## Make sure to always compile with the same flags as this contest
+
+Right now, in the `foundry.toml` file, we can see the project is using the following flags:
+
+```
+solc_version = "0.8.21"   # Override for the solc version (setting this ignores `auto_detect_solc`)
+# evm_version = "paris" # to prevent usage of PUSH0, which is not supported on all chains
+```
+
+This shows us the protocol is aware of breaking changes coming from solidity v0.8.21, and the shangai update as well. As a consequence, in the future, these flags must continue to be used as well if the protocol does not plan to go through another audit. 
