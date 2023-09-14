@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "josephdara",
+  "risk": "2",
+  "title": "LiquidityPoolFactory Does not check necessary info with the Pool Manager before Deployment",
+  "issueId": 679,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/679"
+}
