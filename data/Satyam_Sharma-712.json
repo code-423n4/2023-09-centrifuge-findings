@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "Satyam_Sharma",
+  "risk": "2",
+  "title": "type(uint256).max used instead of type(uint128).max",
+  "issueId": 712,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/712"
+}
