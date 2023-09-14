@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "ast3ros",
+  "risk": "3",
+  "title": "When partially depositing, the remaining amount cannot be withdrawn and exposes investors to losses.",
+  "issueId": 613,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/613"
+}
