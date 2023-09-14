@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "Aymen0909",
+  "risk": "3",
+  "title": "malicious attacker can disable users from collecting tranche token after depositing",
+  "issueId": 647,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/647"
+}
