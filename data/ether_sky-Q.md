@@ -16,3 +16,8 @@ https://github.com/code-423n4/2023-09-centrifuge/blob/512e7a71ebd9ae76384f837204
 
 The name ```currencyAmountInPriceDecimals``` is confusing.
 Can change to ```trancheTokenAmountInPriceDecimals```.
+
+4.
+https://github.com/code-423n4/2023-09-centrifuge/blob/512e7a71ebd9ae76384f837204216f26380c9f91/src/gateway/Messages.sol#L583
+
+The name ```trancheTokenPayout``` can be changed to ```currencyPayout```.
