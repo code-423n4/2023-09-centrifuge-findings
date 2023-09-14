@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "BRONZEDISC",
+  "risk": "2",
+  "title": "Not calling approve(0) before setting a new approval causes the call to revert when used with Tether (USDT)",
+  "issueId": 667,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/667"
+}
