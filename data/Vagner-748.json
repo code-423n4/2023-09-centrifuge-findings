@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "Vagner",
+  "risk": "2",
+  "title": "No gas payment is done before calling the `callContract` in the `Router.sol`",
+  "issueId": 748,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/748"
+}
