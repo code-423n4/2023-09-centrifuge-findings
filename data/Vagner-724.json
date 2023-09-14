@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "Vagner",
+  "risk": "2",
+  "title": "There is not enough protection against signature malleability in the permit function in `ERC20.sol`",
+  "issueId": 724,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/724"
+}
