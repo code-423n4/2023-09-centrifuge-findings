@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0xRobsol",
+  "risk": "2",
+  "title": "Unrestricted Permissions Assignment in newLiquidityPool Function",
+  "issueId": 732,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/732"
+}
