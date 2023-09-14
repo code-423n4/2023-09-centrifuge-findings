@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "yellowBirdy",
+  "risk": "3",
+  "title": "requestDeposit and requestRedeem do not allow for any price guarantee, opening users to sandwich attacks and other losses",
+  "issueId": 769,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/769"
+}
