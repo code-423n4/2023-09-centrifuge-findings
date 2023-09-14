@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0xpiken",
+  "risk": "2",
+  "title": "ERC20.permit() could be failed due to an incoming call `PoolManager#UpdateTrancheTokenMetadata()`",
+  "issueId": 539,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/539"
+}
