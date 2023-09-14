@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "RandomUser",
+  "risk": "3",
+  "title": "After requesting deposit user may be unable to neither receiving tranche tokens nor withdraw investment currency",
+  "issueId": 659,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/659"
+}
