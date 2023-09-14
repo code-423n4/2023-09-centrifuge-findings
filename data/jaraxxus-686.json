@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "jaraxxus",
+  "risk": "2",
+  "title": "Collection and Redemption of currency and tranche tokens have no access control. ",
+  "issueId": 686,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/686"
+}
