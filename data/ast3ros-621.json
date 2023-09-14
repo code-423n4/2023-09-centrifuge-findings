@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "ast3ros",
+  "risk": "2",
+  "title": "The signature verification in ERC20 permit is mallable",
+  "issueId": 621,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/621"
+}
