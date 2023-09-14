@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "MohammedRizwan",
+  "risk": "2",
+  "title": "In `DelayedAdmin.sol` , `auth` access functions will always revert",
+  "issueId": 695,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/695"
+}
