@@ -61,11 +61,17 @@ Since Wards can taken any token value out in Escrow anytime, functions that need
 ## 2.2 Wards can mint unlimited tranche token to any address
 Wards can call token/ERC20#mint() to mint unlimited tranche token to any address
 
+# [03] Architecture Improvements
+## 3.1 Contract should support more types of token in future
+Currently, contract does not support types of token like fee-on-transfer (USDT, USDC, ...), rebasing token, ... Contract should have improvement to support these types of tokens to have more choice for user to invest
+
 # [03] Time spent:
 Day 1: Have a overview about in-scope contracts
 Day 2: Understand workflow of contracts
 Day 3 + 4: Deep dive in 3 main contracts: LiquidityPool, PoolManager, InvestmentManager
 Day 5: Checking the rest of contracts, Finishing Analysis
+
+
 
 ### Time spent:
 45 hours
