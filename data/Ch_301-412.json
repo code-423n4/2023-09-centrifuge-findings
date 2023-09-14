@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "Ch_301",
+  "risk": "3",
+  "title": "`mint()` function is public",
+  "issueId": 412,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/412"
+}
