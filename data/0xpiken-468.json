@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0xpiken",
+  "risk": "2",
+  "title": "Calling of  LiquidityPool#requestDepositWithPermit() or LiquidityPool#requestRedeemWithPermit() could be failed due to a frontrun of a call to ERC20PermitLike.permit()",
+  "issueId": 468,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/468"
+}
