@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0xlemon",
+  "risk": "2",
+  "title": "A user cannot withdraw his assets if the gateway is paused",
+  "issueId": 551,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/551"
+}
