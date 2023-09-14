@@ -51,6 +51,9 @@ The pool manager allows the addition of new currency, which will be used in liqu
 ## 2.2 The Withdraw function is more reliable than redeeming.
 Even though it is clear that liquidity pools are keeping ERC4626 standard, the withdraw function is more reliable than redeem as, from my testing, it prevents possible dust of currency tokens, which can be sustained in the UserEscrow contract. Consider the recommendation for users that it is reliable to withdraw the exact amount of currency.
 
+## 2.3 No full management of trusted forwarder of Tranche Tokens.
+In tranche tokens, it is possible to remove trusted forwarders. It is a privileged operation that can call just wards, who are PoolManager and Investment Manager; however, there is no option on how to reach that function.
+
 # 3. Centralisation risks
 The protocol realises the risks connected with this asynchronous model of this system. Still pointing them out again.
 
@@ -70,6 +73,8 @@ I have spent four days with this audit.
 2. On the second day, I checked the code and tests.
 3. On the third day, I tried different attack scenarios which came to my mind but without success. Reread a code and try to link functionality together.
 4. On the fourth day, I summarised the audit via this analysis report. 
+
+
 
 
 ### Time spent:
