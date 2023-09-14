@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0xkazim",
+  "risk": "2",
+  "title": "possibility of reentrancy attack when `poolManger.sol#Transfer` called with malicious recipient contract address",
+  "issueId": 771,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/771"
+}
