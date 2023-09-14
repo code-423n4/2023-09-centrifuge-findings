@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "VAD37",
+  "risk": "2",
+  "title": "`LiquidityPool` allow phantom permit. Whitelisted member can be forced to invest WETH pool",
+  "issueId": 461,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/461"
+}
