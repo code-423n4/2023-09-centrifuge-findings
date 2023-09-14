@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0xStalin",
+  "risk": "2",
+  "title": "Double allowance spending when using the approve() function.",
+  "issueId": 363,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/363"
+}
