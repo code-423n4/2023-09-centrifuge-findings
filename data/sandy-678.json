@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "sandy",
+  "risk": "3",
+  "title": "An attacker can drain all the tokens from ``UserEscrow`` contract.",
+  "issueId": 678,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/678"
+}
