@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "hals",
+  "risk": "2",
+  "title": "`PoolManager.deployLiquidityPool` function approves escrow contract with a wrong token address",
+  "issueId": 505,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/505"
+}
