@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0xmystery",
+  "risk": "3",
+  "title": "Incorrect Approval of Contracts in PoolManager.deployLiquidityPool",
+  "issueId": 362,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/362"
+}
