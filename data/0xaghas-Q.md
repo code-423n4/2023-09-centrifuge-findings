@@ -25,3 +25,18 @@ https://github.com/code-423n4/2023-09-centrifuge/blob/512e7a71ebd9ae76384f837204
 ## Remediation
 
 Remove the explicit initialization of the paused variable. The Solidity compiler will automatically initialize it to false.
+
+# Issue N2: Missing Check on delay in the constructor
+
+## Description
+
+The constructor accepts a delay parameter but doesn't check its validity or constraints.
+
+## Code Snippet
+
+https://github.com/code-423n4/2023-09-centrifuge/blob/512e7a71ebd9ae76384f837204216f26380c9f91/src/Root.sol#L34
+
+## Remediation
+
+Add a check in the constructor to ensure that the passed delay is within acceptable bounds.
+> require(_delay <= MAX_DELAY, "Root/delay-too-long");
