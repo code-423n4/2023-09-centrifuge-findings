@@ -54,7 +54,6 @@ Emergency scenarios are addressed through careful governance
 Pools and tranches are created and deployed for real-world assets
 Users can invest in different tranches for risk exposure and yield
 Liquidity management involves currency swaps and escrow contracts
-This summary provides an overview of Centrifuge, its audit details, contract structure, and user flows. Please feel free to expand or customize it further to fit your specific needs.
 
 ## Systemic risks:
 Like any smart contract-based system, PoolTogether is exposed to potential coding bugs or vulnerabilities. Exploiting these issues could result in the loss of funds or manipulation of the protocol.
@@ -95,6 +94,8 @@ Compile findings and vulnerabilities discovered during the audit.
 Prioritize and categorize vulnerabilities based on their severity.
 Provide detailed recommendations for mitigating identified risks.
 Summarize the audit results, highlighting key areas of concern.
+
+
 
 
 
