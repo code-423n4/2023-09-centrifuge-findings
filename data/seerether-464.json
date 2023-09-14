@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "seerether",
+  "risk": "3",
+  "title": "The order of operations in handleExecutedCollectRedeem is vulnerable to manipulation",
+  "issueId": 464,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/464"
+}
