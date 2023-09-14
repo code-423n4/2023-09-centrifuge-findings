@@ -491,11 +491,5 @@ simplicity and the challenge of managing complexity. I hope that I have been abl
 during the audit of the contracts within scope, along with pertinent insights for the project team and any party interested in analysing this codebase.
 
 
-
-
-
-
-
-
 ### Time spent:
 18 hours
