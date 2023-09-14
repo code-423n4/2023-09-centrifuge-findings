@@ -40,3 +40,18 @@ https://github.com/code-423n4/2023-09-centrifuge/blob/512e7a71ebd9ae76384f837204
 
 Add a check in the constructor to ensure that the passed delay is within acceptable bounds.
 > require(_delay <= MAX_DELAY, "Root/delay-too-long");
+
+# Issue N4: Missing Check for Already Scheduled Rely
+
+## Description
+
+In the **scheduleRely** function, there is no check for whether a schedule for the target already exists. This could lead to overwriting an existing schedule without any warnings.
+
+## Code Snippet
+
+https://github.com/code-423n4/2023-09-centrifuge/blob/512e7a71ebd9ae76384f837204216f26380c9f91/src/Root.sol#L65
+
+## Remediation
+
+Add a check to ensure that the target has not already been scheduled.
+> require(schedule[target] == 0, "Root/target-already-scheduled");
