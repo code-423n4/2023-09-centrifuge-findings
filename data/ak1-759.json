@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "ak1",
+  "risk": "2",
+  "title": "lack of failsafe mechanism to replay the failed transaction between source chain and destination chain. This would lead to loss of funds to user when transaction is failed.",
+  "issueId": 759,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/759"
+}
