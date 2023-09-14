@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0xbrett8571",
+  "risk": "2",
+  "title": "Data Type Vulnerabilities in `poolId` and `trancheId`, which are declared as `uint64` and `bytes16` respectively.",
+  "issueId": 486,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/486"
+}
