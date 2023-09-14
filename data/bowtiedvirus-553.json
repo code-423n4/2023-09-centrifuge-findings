@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "bowtiedvirus",
+  "risk": "3",
+  "title": "Tranch tokens can be burnt and unrecoverable if user sends invalid destinationAddress in `transferTrancheTokensToEVM`",
+  "issueId": 553,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/553"
+}
