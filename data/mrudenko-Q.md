@@ -42,7 +42,12 @@ In `PoolManager.sol`, consider adding a getter for `pools[poolId].tranches[tranc
 [Q-11]
 Severity: non-critical
 In `LiquidityPool.sol`, the description of the redeem function includes "or an authorized admin." This should be removed. The same words should also be removed from another function in the same file.
+
 [Q-12]
 Severity: low
 https://github.com/code-423n4/2023-09-centrifuge/blob/e725dde1901f00aa0574026de24f0de6764618d4/src/InvestmentManager.sol#L583
-In a mathematical way, calculation of shares prices should be RoundUp, instead of rounding down
+In a mathematical way, the calculation of share prices should be RoundUp, instead of rounding down
+
+[Q-13]
+Severity: non-critical
+Better to use inheritance from Auth.sol contract in ERC20.sol instead of duplication. In ERC20 there is the same logic for setting wards, relying on and denying actions. Code can be refactored
