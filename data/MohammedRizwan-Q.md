@@ -8,6 +8,7 @@
 | [L&#x2011;03] | In `Tranche.sol`, Misleading modifier name `restricted()` should be `notRestricted()` | 1 |
 | [L&#x2011;04] | While setting `delay`, the contract does not check `delay` should be less than `maxDelay` | 1 |
 | [L&#x2011;05] | The Root.delay will initially be set to 48 hours per docs | 1 |
+| [L&#x2011;06] | `updatePrice()` can set the price to 0 | 1 |
 
 ### [L&#x2011;01]  Prevent `newTrancheToken()` from being Dos-ed
 In `Factory.sol` has `TrancheTokenFactory` which has `newTrancheToken()` which can be Dos-ed or front-run attacker as the salt used does not contain `msg.sender`. It is also recommended to add incremented nonce to avoid the incoming front running issue.
@@ -143,3 +144,28 @@ There is [1 instance](https://github.com/code-423n4/2023-09-centrifuge/blob/512e
 
 ### Recommended Mitigation steps
 The Root.delay() should be set to to 48 hours per contest readme.md
+
+### [L&#x2011;06]  `updatePrice()` can set the price to 0
+updatePrice can be used to update the price, however if it is set to zero. Everything multiplied with price will be zero too. 
+
+```Solidity
+
+    function updatePrice(uint128 price) public auth {
+        latestPrice = price;
+        lastPriceUpdate = block.timestamp;
+        emit UpdatePrice(price);
+    }
+```
+
+### Recommended Mitigation steps
+Add price is not equal to 0 validation check.
+
+```diff
+
+    function updatePrice(uint128 price) public auth {
++       require(price != 0, "invalid price");
+        latestPrice = price;
+        lastPriceUpdate = block.timestamp;
+        emit UpdatePrice(price);
+    }
+```
