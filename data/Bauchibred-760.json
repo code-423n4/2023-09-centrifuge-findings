@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "Bauchibred",
+  "risk": "2",
+  "title": "permit and `_isValidSignature` would fail to validate signatures from counterfactual wallets",
+  "issueId": 760,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/760"
+}
