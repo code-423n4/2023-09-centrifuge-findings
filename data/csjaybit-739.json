@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "csjaybit",
+  "risk": "2",
+  "title": "[M-02] Lack of Minimum Delay Check in relyContract Function",
+  "issueId": 739,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/739"
+}
