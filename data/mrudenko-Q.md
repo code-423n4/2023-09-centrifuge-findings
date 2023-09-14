@@ -42,3 +42,7 @@ In `PoolManager.sol`, consider adding a getter for `pools[poolId].tranches[tranc
 [Q-11]
 Severity: non-critical
 In `LiquidityPool.sol`, the description of the redeem function includes "or an authorized admin." This should be removed. The same words should also be removed from another function in the same file.
+[Q-12]
+Severity: low
+https://github.com/code-423n4/2023-09-centrifuge/blob/e725dde1901f00aa0574026de24f0de6764618d4/src/InvestmentManager.sol#L583
+In a mathematical way, calculation of shares prices should be RoundUp, instead of rounding down
