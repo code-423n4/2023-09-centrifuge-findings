@@ -1,3 +1,7 @@
+# Low
+## [L-01] Commented line
+In [LiquidityPool.sol#L149](https://github.com/code-423n4/2023-09-centrifuge/blob/512e7a71ebd9ae76384f837204216f26380c9f91/src/LiquidityPool.sol#L149), there is a commented require. Although it SEEMS to not matter because passing another user as an argument does mint the tokens to him instead of the malicious caller, consider either removing that line or reviewing the logic underneath.
+
 # Non-critical
 ## [NC-01] Unused interface
 In [Escrow.sol](https://github.com/code-423n4/2023-09-centrifuge/blob/512e7a71ebd9ae76384f837204216f26380c9f91/src/Escrow.sol#L7C1-L9C2), the interface `ApproveLike` is not used in the whole project. Remove that.
