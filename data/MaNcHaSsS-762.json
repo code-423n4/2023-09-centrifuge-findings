@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "MaNcHaSsS",
+  "risk": "3",
+  "title": "Incorrent approval for escrow tokens, not allowing to burn on redeem",
+  "issueId": 762,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/762"
+}
