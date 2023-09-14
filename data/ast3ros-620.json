@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "ast3ros",
+  "risk": "2",
+  "title": "The timelocked ward management can be bypassed",
+  "issueId": 620,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/620"
+}
