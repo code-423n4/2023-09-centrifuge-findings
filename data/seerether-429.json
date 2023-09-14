@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "seerether",
+  "risk": "3",
+  "title": " There is a conclusion in processRedeem and processWithdraw that the epoch has already been executed and the redemption order has been fulfilled on Centrifuge. If that has not happened, the redemption could improperly succeed or funds could be locked up.",
+  "issueId": 429,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/429"
+}
