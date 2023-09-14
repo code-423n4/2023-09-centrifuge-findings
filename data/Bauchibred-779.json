@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "Bauchibred",
+  "risk": "2",
+  "title": "The Restriction Manager does not completely implement ERC1404 which leads to account that are supposed to be restricted actually have access to do with their tokens as they see fit",
+  "issueId": 779,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/779"
+}
