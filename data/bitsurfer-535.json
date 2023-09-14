@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "bitsurfer",
+  "risk": "2",
+  "title": "`previewMint` and `previewWithdraw` of LiquidityPool (ERC4626) should be round up",
+  "issueId": 535,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/535"
+}
