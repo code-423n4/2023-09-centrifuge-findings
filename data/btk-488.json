@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "btk",
+  "risk": "2",
+  "title": "No slippage control on deposit of LiquidityPool",
+  "issueId": 488,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/488"
+}
