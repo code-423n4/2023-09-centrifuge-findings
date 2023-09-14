@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "seerether",
+  "risk": "3",
+  "title": "The contract does not track the total supply of the liquidity pool tokens. This could allow the pool to artificially mint tokens without additional deposits in order to manipulate the token price",
+  "issueId": 563,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/563"
+}
