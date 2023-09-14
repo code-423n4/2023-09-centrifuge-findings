@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "seerether",
+  "risk": "3",
+  "title": "vulnerability in calculateDepositPrice because it does not validate that maxMint is greater than 0",
+  "issueId": 569,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/569"
+}
