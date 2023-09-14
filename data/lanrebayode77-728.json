@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "lanrebayode77",
+  "risk": "2",
+  "title": "processWithdraw() does not check if the user is have been restricted",
+  "issueId": 728,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/728"
+}
