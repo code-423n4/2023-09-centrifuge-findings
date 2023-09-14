@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0xSwahili",
+  "risk": "2",
+  "title": "Lack of emergency withdrawal function for blacklisted stablecoin accounts might lead to loss of investments",
+  "issueId": 339,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/339"
+}
