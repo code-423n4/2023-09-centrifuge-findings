@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0xbrett8571",
+  "risk": "2",
+  "title": "Lack of Expiration Validation in Permit Function Calls",
+  "issueId": 494,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/494"
+}
