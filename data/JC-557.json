@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "JC",
+  "risk": "2",
+  "title": "The function UserEscrow.transferOut() will not work for some tokens that don't support approve type(uint256).max amount.",
+  "issueId": 557,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/557"
+}
