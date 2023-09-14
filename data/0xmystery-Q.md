@@ -197,3 +197,91 @@ https://github.com/code-423n4/2023-09-centrifuge/blob/main/src/InvestmentManager
 +        trancheTokenAmount = _fromPriceDecimals(trancheTokenAmountInPriceDecimals, trancheTokenDecimals, liquidityPool);
     }
 ```
+## Functions line separation within contracts
+Functions within contracts should be separated by a single line as denoted in the link below:
+
+https://docs.soliditylang.org/en/latest/style-guide.html#blank-lines
+
+The bot report brought up this issue albeit with wrong instances entailed. Here's one of the supposed instances:
+
+https://github.com/code-423n4/2023-09-centrifuge/blob/main/src/LiquidityPool.sol#L9-L42
+
+```solidity
+interface ERC20PermitLike {
+    function permit(address owner, address spender, uint256 value, uint256 deadline, uint8 v, bytes32 r, bytes32 s)
+        external;
+    function PERMIT_TYPEHASH() external view returns (bytes32);
+    function DOMAIN_SEPARATOR() external view returns (bytes32);
+}
+
+interface TrancheTokenLike is IERC20, ERC20PermitLike {
+    function checkTransferRestriction(address from, address to, uint256 value) external view returns (bool);
+}
+
+interface InvestmentManagerLike {
+    function processDeposit(address receiver, uint256 assets) external returns (uint256);
+    function processMint(address receiver, uint256 shares) external returns (uint256);
+    function processWithdraw(uint256 assets, address receiver, address owner) external returns (uint256);
+    function processRedeem(uint256 shares, address receiver, address owner) external returns (uint256);
+    function maxDeposit(address user, address _tranche) external view returns (uint256);
+    function maxMint(address user, address _tranche) external view returns (uint256);
+    function maxWithdraw(address user, address _tranche) external view returns (uint256);
+    function maxRedeem(address user, address _tranche) external view returns (uint256);
+    function totalAssets(uint256 totalSupply, address liquidityPool) external view returns (uint256);
+    function convertToShares(uint256 assets, address liquidityPool) external view returns (uint256);
+    function convertToAssets(uint256 shares, address liquidityPool) external view returns (uint256);
+    function previewDeposit(address user, address liquidityPool, uint256 assets) external view returns (uint256);
+    function previewMint(address user, address liquidityPool, uint256 shares) external view returns (uint256);
+    function previewWithdraw(address user, address liquidityPool, uint256 assets) external view returns (uint256);
+    function previewRedeem(address user, address liquidityPool, uint256 shares) external view returns (uint256);
+    function requestRedeem(uint256 shares, address receiver) external;
+    function requestDeposit(uint256 assets, address receiver) external;
+    function collectDeposit(address receiver) external;
+    function collectRedeem(address receiver) external;
+    function decreaseDepositRequest(uint256 assets, address receiver) external;
+    function decreaseRedeemRequest(uint256 shares, address receiver) external;
+}
+```
+All other instances mostly hover around the in file interfaces:
+https://github.com/code-423n4/2023-09-centrifuge/blob/main/src/InvestmentManager.sol#L8-L56
+https://github.com/code-423n4/2023-09-centrifuge/blob/main/src/token/RestrictionManager.sol#L6-L10
+https://github.com/code-423n4/2023-09-centrifuge/blob/main/src/Escrow.sol#L7-L9
+https://github.com/code-423n4/2023-09-centrifuge/blob/main/src/PoolManager.sol#L11-L50 
+
+## Activate the optimizer
+Before deploying your contract, activate the optimizer when compiling using “solc --optimize --bin sourceFile.sol”. By default, the optimizer will optimize the contract assuming it is called 200 times across its lifetime. If you want the initial contract deployment to be cheaper and the later function executions to be more expensive, set it to “ --optimize-runs=1”. Conversely, if you expect many transactions and do not care for higher deployment cost and output size, set “--optimize-runs” to a high number.
+
+```
+module.exports = {
+solidity: {
+version: "0.8.21",
+settings: {
+  optimizer: {
+    enabled: true,
+    runs: 1000,
+  },
+},
+},
+};
+```
+Kindly visit the following site for further information:
+
+https://docs.soliditylang.org/en/v0.5.4/using-the-compiler.html#using-the-commandline-compiler
+
+Here is one particular example of instance on opcode comparison that delineates the gas saving mechanism:
+
+```
+for !=0 before optimization
+PUSH1 0x00
+DUP2
+EQ
+ISZERO
+PUSH1 [cont offset]
+JUMPI
+
+after optimization
+DUP1
+PUSH1 [revert offset]
+JUMPI
+```
+Disclaimer: There have been several bugs with security implications related to optimizations. For this reason, Solidity compiler optimizations are disabled by default, and it is unclear how many contracts in the wild actually use them. Therefore, it is unclear how well they are being tested and exercised. High-severity security issues due to optimization bugs have occurred in the past. A high-severity bug in the emscripten -generated solc-js compiler used by Truffle and Remix persisted until late 2018. The fix for this bug was not reported in the Solidity CHANGELOG. Another high-severity optimization bug resulting in incorrect bit shift results was patched in Solidity 0.5.6. Please measure the gas savings from optimizations, and carefully weigh them against the possibility of an optimization-related bug. Also, monitor the development and adoption of Solidity compiler optimizations to assess their maturity.
