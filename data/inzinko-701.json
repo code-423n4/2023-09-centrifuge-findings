@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "inzinko",
+  "risk": "2",
+  "title": "scheduleRely can be executed immediately defeating the Time ward allocation purpose ",
+  "issueId": 701,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/701"
+}
