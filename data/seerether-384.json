@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "seerether",
+  "risk": "3",
+  "title": "The decrease of deposit limits happens before the transfer when processing a deposit. If the transfer fails, the limits will incorrectly be decreased.",
+  "issueId": 384,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/384"
+}
