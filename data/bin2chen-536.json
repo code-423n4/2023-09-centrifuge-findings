@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "bin2chen",
+  "risk": "2",
+  "title": "DOMAIN_SEPARATOR Incorrect signature content",
+  "issueId": 536,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/536"
+}
