@@ -1,4 +1,4 @@
-- Import gateway functions should return a bool to indicate successful function execution or functions that involves talking to bridges or the router
+-(1)  Import gateway functions should return a bool to indicate successful function execution or functions that involves talking to bridges or the router, to add an extra layer of security
 - like so:- e.g on [cancelredeemOrder](https://github.com/code-423n4/2023-09-centrifuge/blob/705e3500f8a43579cb15751d09100c93b249120f/src/gateway/Gateway.sol#L276)
 ```diff
 diff --git a/src/gateway/Gateway.sol b/src/gateway/Gateway.sol
@@ -41,5 +41,4 @@ index fe94965..96cd5a5 100644
 +            require(success, "InvestmentManager/run-not-successful");
              return;
          }
- 
 ```
