@@ -15,3 +15,25 @@ If the pool doesn't exist, the function will revert at its beginning. Here's the
         // @audit redundant check, this line will never be executed
         require(pools[poolId].createdAt != 0, "PoolManager/pool-does-not-exist");
 ```
+
+# The functions _stringToBytes32 and _stringToBytes128 are missing length checks. 
+Unexpected results may occur if the string length is greater than or equal to 32 or 128, respectively.
+
+## POC
+```Solidity
+    function testMsgForwarding() public {
+        string memory test = "thisisatet";
+        bytes32 result1 = _stringToBytes32(test);
+        emit log_bytes32(result1);
+        string memory string1 = _bytes32ToString(result1);
+        console.log("test: %s string1 : %s ", string1);
+
+        string memory stringWithLeng40 = "1234567890123456789012345678901234567890";
+
+        bytes32 result2 = _stringToBytes32(stringWithLeng40);
+        string memory string2 = _bytes32ToString(result2);
+        console.log("stringWithLeng40 : %s result : %s", stringWithLeng40, string2);
+
+        emit log_bytes32(result2);
+    }
+```
