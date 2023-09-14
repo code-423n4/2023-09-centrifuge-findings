@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "BARW",
+  "risk": "2",
+  "title": "It is not possible to call `RestrictionManager.updateMembers` through the gateway and update multiple members at the same time ",
+  "issueId": 393,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/393"
+}
