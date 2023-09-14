@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "PENGUN",
+  "risk": "2",
+  "title": "LiquidityPool's Non-Compliance with ERC-4626 Due to Rounding Issues",
+  "issueId": 562,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/562"
+}
