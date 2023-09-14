@@ -1,9 +1,6 @@
 ## Any comments for the judge to contextualize your findings:
 My primary objective is to enhance the gas efficiency, find low/QA and cost-effectiveness of the protocol. Throughout my analysis, I have diligently pursued opportunities to optimize gas and have found alot of QA reports but most of them are already discovered in bot-race so i will not submit them, this analysis is my only submission.
 
-The optimizations I have identified aim to improve gas efficiency, reduce storage reads, and overall make the smart contracts more cost-effective to deploy and interact with on the blockchain
-
-
 I don't have any more finding to so there isn't anything that i would like to say.
 
 ## Approach taken in evaluating the codebase:
@@ -24,9 +21,24 @@ To evaluate the codebase of Centrifuge's smart contracts, I followed these steps
 
 ## Codebase quality analysis:
 
-Centrifuge focuses on asset originations, repayments, and the coordination of investments and redemptions within its pools. The documentation emphasizes the use of `epochs`, which are `time periods` during which investments and redemptions are locked and executed. The platform also employs a solver mechanism to optimize the execution of these transactions while adhering to certain restrictions.
+When evaluating the quality of `Centrifuge's codebase`, several crucial aspects were examined.
 
-The codebase demonstrates a commendable level of quality. It adheres to best practices, employs consistent coding conventions, and utilizes meaningful variable names and comments. Moreover, extensive unit tests and proper version control practices are in place, which contribute to the overall robustness of the code. These practices instill confidence in the code's reliability and stability. Also there is alot of documentation for the project and also there are alot of diagrams that helps anyone especially `auditors` to understand this protocol.
+The contract adheres to a modular structure, importing various libraries and interfaces. This practice of separating concerns promotes maintainability and re-usability. Notably, specialized contracts like `Auth`, `MathLib`, and `TrancheTokenLike` serve specific functionalities, contributing to a well-organized codebase.
+
+Interfaces such as `IERC20`, `IERC4626` are effectively utilized for interactions with other contracts. This aligns with best practices, allowing for flexibility when connecting with different Ethereum standards.
+
+Function names are thoughtfully chosen and follow a clear naming convention. This approach greatly improves code readability and comprehension. Additionally, the code maintains consistency in style, particularly in the use of brackets and indentation, which contributes to readability and reduces the likelihood of errors.
+
+
+Security measures are evident in the use of the `Auth` contract for authorization checks and the implementation of modifiers. However, a comprehensive security audit is imperative to confirm the contract's resilience to potential vulnerabilities.
+
+
+It's worth noting that the contract relies on external contracts and interfaces, potentially introducing risks associated with external contract behavior. Therefore, a cautious evaluation of these dependencies is crucial for ensuring the contract's robustness.
+
+In summary, `Centrifuge's` codebase demonstrates a commendable level of quality. It adheres to best practices, employs consistent coding conventions, and utilizes meaningful variable names and comments. Moreover, extensive unit tests and proper version control practices are in place, which contribute to the overall robustness of the code. These practices instill confidence in the code's reliability and stability. Also there is alot of documentation for the project and also there are alot of diagrams that helps anyone especially `auditors` to understand this protocol.
+
+Centrifuge's primary focus lies in facilitating asset originations, repayments, and the coordination of investments and redemptions within its pools. The documentation emphasizes the concept of epochs, defined as discrete time periods during which investments and redemptions are locked and executed. The platform also employs a solver mechanism to optimize the execution of these transactions while adhering to specified restrictions.
+
 
 Here are few of the important diagrams of the system
 
@@ -66,6 +78,8 @@ Systemic risks in `Centrifuge` include:
 
 
 Note: `I don't exactly remember the time spend on this, so wrote an idea of how much I should have spend`
+
+
 
 
 
