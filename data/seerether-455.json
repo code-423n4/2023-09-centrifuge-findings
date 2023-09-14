@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "seerether",
+  "risk": "3",
+  "title": "The tranche tokens being redeemed are not actually burned in the processRedeem function. They are only assumed to have already been burned. This could allow an attacker to double redeem the same tokens.",
+  "issueId": 455,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/455"
+}
