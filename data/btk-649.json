@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "btk",
+  "risk": "2",
+  "title": "withApproval modifier is not working as expected",
+  "issueId": 649,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/649"
+}
