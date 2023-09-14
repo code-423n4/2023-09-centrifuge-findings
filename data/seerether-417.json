@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "seerether",
+  "risk": "3",
+  "title": "An attacker could manipulate the state of orderbook[user][liquidityPool] to get a more favorable redeem price.",
+  "issueId": 417,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/417"
+}
