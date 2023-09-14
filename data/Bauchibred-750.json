@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "Bauchibred",
+  "risk": "2",
+  "title": "Allowing price updates once in an epoch is extremely risky and open windows to a lot of issues",
+  "issueId": 750,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/750"
+}
