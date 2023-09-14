@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "maanas",
+  "risk": "3",
+  "title": "Incorrect rounding leads to leakage of excess tokens and breaks deposits",
+  "issueId": 367,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/367"
+}
