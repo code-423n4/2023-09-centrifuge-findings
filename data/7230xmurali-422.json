@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "7230xmurali",
+  "risk": "2",
+  "title": "safeTransferFrom,safeTransfer   Zero address can't Checked.",
+  "issueId": 422,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/422"
+}
