@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "alymurtazamemon",
+  "risk": "2",
+  "title": "Return value of ERC20 `transferFrom` not checked",
+  "issueId": 333,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/333"
+}
