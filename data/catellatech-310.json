@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "catellatech",
+  "risk": "2",
+  "title": "In LiquidityPool contract early depositor can manipulate exchange rate and steal funds ",
+  "issueId": 310,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/310"
+}
