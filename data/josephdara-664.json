@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "josephdara",
+  "risk": "2",
+  "title": "Rounding Error in LiquidityPool-ERC4626 contract",
+  "issueId": 664,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/664"
+}
