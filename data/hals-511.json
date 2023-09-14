@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "hals",
+  "risk": "2",
+  "title": "`Root` contract : some protocol contracts privileged functionalities might become inaccessible due to no wards left on these contracts",
+  "issueId": 511,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/511"
+}
