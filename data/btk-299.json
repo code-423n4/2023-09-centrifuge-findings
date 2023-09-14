@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "btk",
+  "risk": "2",
+  "title": "InvestmentManager will break if usdc/usdt start taking fees",
+  "issueId": 299,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/299"
+}
