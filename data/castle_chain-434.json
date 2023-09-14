@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "castle_chain",
+  "risk": "2",
+  "title": "approve large amount such as type(uint256).max will set the allowance to type(uint96).max in some tokens which will prevent the receiver from receive the token from the userEscrow.",
+  "issueId": 434,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/434"
+}
