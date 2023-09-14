@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0xkazim",
+  "risk": "2",
+  "title": "the `newTrancheToken` will always revert due to incorrect implementation of `file()` function",
+  "issueId": 710,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/710"
+}
