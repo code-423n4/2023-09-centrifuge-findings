@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "Auditwolf",
+  "risk": "2",
+  "title": "Incorrect accounting of total assets if an investor is removed.",
+  "issueId": 452,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/452"
+}
