@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "seerether",
+  "risk": "3",
+  "title": "Not normalizing the raw uint128 values to a common precision could cause a loss of precision in the price calculations.",
+  "issueId": 531,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/531"
+}
