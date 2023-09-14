@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "DavylVinyl",
+  "risk": "2",
+  "title": "Contract lacks proper error handling. Without meaningful error messages, it becomes difficult to identify the exact reasons for failures or unexpected behavior. Often leading end user astray.",
+  "issueId": 780,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/780"
+}
