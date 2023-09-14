@@ -39,3 +39,34 @@ This is because they are not described in the standard and [as described in the 
 But ERC20 of centrifuge protocol, [still has such functions](https://github.com/code-423n4/2023-09-centrifuge/blob/main/src/token/ERC20.sol#L139-L159).
 ## Recommended Mitigation Steps
 Think, if it's worth removing them as well.
+
+## QA-04. ERC20._isValidSignature doesn't check if ecrecover returned 0 address
+
+### Details
+https://github.com/code-423n4/2023-09-centrifuge/blob/main/src/token/ERC20.sol#L196-L214
+```solidity
+        function _isValidSignature(address signer, bytes32 digest, bytes memory signature) internal view returns (bool) {
+        if (signature.length == 65) {
+            bytes32 r;
+            bytes32 s;
+            uint8 v;
+            assembly {
+                r := mload(add(signature, 0x20))
+                s := mload(add(signature, 0x40))
+                v := byte(0, mload(add(signature, 0x60)))
+            }
+            if (signer == ecrecover(digest, v, r, s)) {
+                return true;
+            }
+        }
+
+
+        (bool success, bytes memory result) =
+            signer.staticcall(abi.encodeWithSelector(IERC1271.isValidSignature.selector, digest, signature));
+        return (success && result.length == 32 && abi.decode(result, (bytes4)) == IERC1271.isValidSignature.selector);
+    }
+```
+This function checks signer and doesn't check if ecrecover returned 0 address. A result user can create allowance to himself from 0 address. This is not real problem as 0 addresss is restricted, so no one can send or mint tokens to it.
+
+## Recommended Mitigation Steps
+In case if recovered address is 0, then revert.
