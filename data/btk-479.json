@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "btk",
+  "risk": "2",
+  "title": "Funds will be stuck if the USDC contract blacklists the destination",
+  "issueId": 479,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/479"
+}
