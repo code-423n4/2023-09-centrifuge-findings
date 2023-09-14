@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "DavylVinyl",
+  "risk": "2",
+  "title": "Access Control Dependency on `msg.sender`: The `onlyGateway` modifier relies solely on `msg.sender` for access control. If the address of the gateway contract is compromised or manipulated, it can lead to unauthorized access to critical functions within the contract.",
+  "issueId": 715,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/715"
+}
