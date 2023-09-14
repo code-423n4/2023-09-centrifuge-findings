@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "DavylVinyl",
+  "risk": "3",
+  "title": "Contract may consume excessive gas, potentially leading to transaction failures or expensive transactions",
+  "issueId": 766,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/766"
+}
