@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "Topmark",
+  "risk": "2",
+  "title": "No transferOut was done when maxDeposit is updated in handleExecutedCollectInvest(...) contract",
+  "issueId": 672,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/672"
+}
