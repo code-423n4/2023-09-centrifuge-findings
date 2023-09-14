@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "rvierdiiev",
+  "risk": "2",
+  "title": "_DOMAIN_SEPARATOR is not updated, when name of token is changed",
+  "issueId": 404,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/404"
+}
