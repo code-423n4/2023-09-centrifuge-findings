@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "DavylVinyl",
+  "risk": "2",
+  "title": "The executeScheduledRely function in the code allows any external caller to execute it without proper access control checks. This means that anyone can make themselves a ward on a contract without authorization, which poses a security risk.",
+  "issueId": 757,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/757"
+}
