@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "ast3ros",
+  "risk": "2",
+  "title": "Users may lose their tranche tokens when decreasing redeem orders.",
+  "issueId": 615,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/615"
+}
