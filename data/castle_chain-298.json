@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "castle_chain",
+  "risk": "3",
+  "title": "unlimiting the delay period with minimum threshold allow the delay period to be set too low and allow a malicious `ScheduleUpgrade` message to be executed on the root contract and gain access on the other contracts. ",
+  "issueId": 298,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/298"
+}
