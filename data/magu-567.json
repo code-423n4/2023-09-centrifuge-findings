@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "magu",
+  "risk": "2",
+  "title": "increaseAlloance and decreaseAllowance function are removed from ERC-20 because of avoiding fishing attack.",
+  "issueId": 567,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/567"
+}
