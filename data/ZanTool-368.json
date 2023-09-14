@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "ZanTool",
+  "risk": "3",
+  "title": "Unchecked Call Return Value of transferFrom",
+  "issueId": 368,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/368"
+}
