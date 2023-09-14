@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0xAsen",
+  "risk": "2",
+  "title": "Tokens could be lost when user tries to transferTrancheTokensToEVM if Gateway gets paused",
+  "issueId": 370,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/370"
+}
