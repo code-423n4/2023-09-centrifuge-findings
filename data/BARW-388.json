@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "BARW",
+  "risk": "3",
+  "title": "Blacklisted User can still transfer his tranch tokens to a user on the member list",
+  "issueId": 388,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/388"
+}
