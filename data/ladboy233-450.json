@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "ladboy233",
+  "risk": "2",
+  "title": "All message cannot get executed on dest chain if the gateway contract is paused",
+  "issueId": 450,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/450"
+}
