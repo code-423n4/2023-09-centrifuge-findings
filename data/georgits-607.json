@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "georgits",
+  "risk": "2",
+  "title": "withApproval() doesn't check if msg.sender is ward or not",
+  "issueId": 607,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/607"
+}
