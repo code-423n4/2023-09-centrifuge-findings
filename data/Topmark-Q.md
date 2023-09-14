@@ -31,3 +31,21 @@ https://github.com/code-423n4/2023-09-centrifuge/blob/main/src/gateway/Messages.
         AddCurrency,
    ...
 ```
+### Report 3:
+Repetition of code condition validation makes codes less readable and unnecessarily complicated in [L893](https://github.com/code-423n4/2023-09-centrifuge/blob/main/src/gateway/Messages.sol#L893) of the Messages.sol contract. As seen in the correction in the code below since _bytes32[i] has been checked for zero before a better way would be to simply use "j" for the second loop in relation to updated value of "i"
+https://github.com/code-423n4/2023-09-centrifuge/blob/main/src/gateway/Messages.sol#L893
+```solidity
+  function _bytes32ToString(bytes32 _bytes32) internal pure returns (string memory) {
+        uint8 i = 0;
+        while (i < 32 && _bytes32[i] != 0) {
+            i++;
+        }
+        bytes memory bytesArray = new bytes(i);
+    ---    for (i = 0; i < 32 && _bytes32[i] != 0; i++) {
+    ---        bytesArray[i] = _bytes32[i];
+    +++    for (uint8 j = 0; j < i ; j++) {
+    +++        bytesArray[j] = _bytes32[j];
+        }
+        return string(bytesArray);
+    }
+```
