@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "merlin",
+  "risk": "2",
+  "title": "Investors can lose Tranche Tokens when transferring them to the incorrect destination chain",
+  "issueId": 391,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/391"
+}
