@@ -79,6 +79,8 @@ https://github.com/code-423n4/2023-09-centrifuge/blob/512e7a71ebd9ae76384f837204
 ### Recommended Mitigation
 Check the status of the ``approve()`` function
 
+##
+
 ## [L-4] External call ``recipient`` may consume all transaction gas
 
 ### Impact
@@ -286,13 +288,135 @@ FILE: 2023-09-centrifuge/src/InvestmentManager.sol
 
 213: require(liquidityPool.checkTransferRestriction(address(0), user, 0), "InvestmentManager/not-a-member");
 
-
-
 ```
 https://github.com/code-423n4/2023-09-centrifuge/blob/512e7a71ebd9ae76384f837204216f26380c9f91/src/InvestmentManager.sol#L177
 
+##
+
+## [L-12] no checks for ``source`` and ``destination`` addresses being the same
+
+The function transferIn() in the UserEscrow contract does not check if the source and destination addresses are the same. This means that a user could potentially deposit tokens into their own escrow address.if an attacker is able to compromise a user's escrow account, they could potentially steal all of the tokens in the account, even if the tokens are deposited into the user's own escrow address.
+
+```solidity
+FILE: 2023-09-centrifuge/src/UserEscrow.sol
+
+// --- Token transfers ---
+    function transferIn(address token, address source, address destination, uint256 amount) external auth {
+        destinations[token][destination] += amount;
+
+        SafeTransferLib.safeTransferFrom(token, source, address(this), amount);
+        emit TransferIn(token, source, destination, amount);
+    }
 
 
+```
+https://github.com/code-423n4/2023-09-centrifuge/blob/512e7a71ebd9ae76384f837204216f26380c9f91/src/UserEscrow.sol#L29
+
+### Recommended Mitigation
+
+```
+require(source != destination, "wrong address");
+
+```
+##
+
+## [L-13] ``transferIn`` function lacks the token support checks in ``UserEscrow`` contract
+
+### Impact
+The function does not check if the token is supported by the escrow. This means that users could potentially deposit tokens into the escrow that cannot be withdrawn.
+
+```solidity
+FILE: 2023-09-centrifuge/src/UserEscrow.sol
+
+// --- Token transfers ---
+    function transferIn(address token, address source, address destination, uint256 amount) external auth {
+        destinations[token][destination] += amount;
+
+        SafeTransferLib.safeTransferFrom(token, source, address(this), amount);
+        emit TransferIn(token, source, destination, amount);
+    }
+
+
+```
+https://github.com/code-423n4/2023-09-centrifuge/blob/512e7a71ebd9ae76384f837204216f26380c9f91/src/UserEscrow.sol#L29
+
+### Recommended Mitgation
+Add a check to ensure that the token is supported by the escrow
+
+##
+
+## [L-14] ``transferOut()`` function no check for receiver being a contract
+
+The function does not check if the receiver is a contract. This means that an attacker could potentially use a malicious contract to steal the tokens from the destination
+
+```solidity
+FILE: 2023-09-centrifuge/src/UserEscrow.sol
+
+function transferOut(address token, address destination, address receiver, uint256 amount) external auth {
+        require(destinations[token][destination] >= amount, "UserEscrow/transfer-failed");
+        require(
+            /// @dev transferOut can only be initiated by the destination address or an authorized admin.
+            ///      The check is just an additional protection to secure destination funds in case of compromized auth.
+            ///      Since userEscrow is not able to decrease the allowance for the receiver,
+            ///      a transfer is only possible in case receiver has received the full allowance from destination address.
+            receiver == destination || (ERC20Like(token).allowance(destination, receiver) == type(uint256).max),
+            "UserEscrow/receiver-has-no-allowance"
+        );
+        destinations[token][destination] -= amount;
+
+        SafeTransferLib.safeTransfer(token, receiver, amount);
+        emit TransferOut(token, receiver, amount);
+    }
+
+
+```
+https://github.com/code-423n4/2023-09-centrifuge/blob/512e7a71ebd9ae76384f837204216f26380c9f91/src/UserEscrow.sol#L36-L50
+
+### Recommended Mitigation
+Add a check to ensure that the receiver is not a contract
+
+##
+
+## [L-15] Add a ``timelock`` to the ``transferOut()`` function to prevent ``attackers`` from withdrawing funds immediately after compromising a user's ``escrow account``
+
+### Impact
+To add a timelock to the transferOut() function in the UserEscrow contract, you can add a new state variable called timelock and a new modifier called withTimelock. The timelock variable will store the timestamp at which a transfer was requested, and the withTimelock modifier will ensure that a transfer can only be executed after the timelock period has elapsed.
+
+The timelock period can be set to any desired value, such as 24 hours or 7 days. This will prevent attackers from withdrawing funds immediately after compromising a user's escrow account.
+
+```solidity
+FILE: 2023-09-centrifuge/src/UserEscrow.sol
+
+function transferOut(address token, address destination, address receiver, uint256 amount) external auth {
+        require(destinations[token][destination] >= amount, "UserEscrow/transfer-failed");
+        require(
+            /// @dev transferOut can only be initiated by the destination address or an authorized admin.
+            ///      The check is just an additional protection to secure destination funds in case of compromized auth.
+            ///      Since userEscrow is not able to decrease the allowance for the receiver,
+            ///      a transfer is only possible in case receiver has received the full allowance from destination address.
+            receiver == destination || (ERC20Like(token).allowance(destination, receiver) == type(uint256).max),
+            "UserEscrow/receiver-has-no-allowance"
+        );
+        destinations[token][destination] -= amount;
+
+        SafeTransferLib.safeTransfer(token, receiver, amount);
+        emit TransferOut(token, receiver, amount);
+    }
+
+```
+https://github.com/code-423n4/2023-09-centrifuge/blob/512e7a71ebd9ae76384f837204216f26380c9f91/src/UserEscrow.sol#L36-L50
+
+### Recommended Mitigation
+Add timelock 
+
+```solidity
+
+modifier withTimelock() {
+    require(block.timestamp >= timelock, "UserEscrow/timelock-not-expired");
+    _;
+}
+
+```
 
 
 
