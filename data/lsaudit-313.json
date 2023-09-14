@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "lsaudit",
+  "risk": "2",
+  "title": "The domain separator is not calculated properly",
+  "issueId": 313,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/313"
+}
