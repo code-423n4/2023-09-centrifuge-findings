@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0xmuxyz",
+  "risk": "2",
+  "title": "USDC-locked in the Escrow contract will be stuck forever in the Escrow contract if a depositor's address would be blacklisted by the USDC contract",
+  "issueId": 334,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/334"
+}
