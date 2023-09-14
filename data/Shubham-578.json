@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "Shubham",
+  "risk": "2",
+  "title": "Risk of reuse of signatures incase of forks",
+  "issueId": 578,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/578"
+}
