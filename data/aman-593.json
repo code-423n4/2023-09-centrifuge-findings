@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "aman",
+  "risk": "2",
+  "title": "SafeTransferLib does not check for zero address",
+  "issueId": 593,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/593"
+}
