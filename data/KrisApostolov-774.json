@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "KrisApostolov",
+  "risk": "2",
+  "title": "previewWithdraw doesn't round up the asset amount leading to confusion when external protocols integrate with the vaults of the protocol",
+  "issueId": 774,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/774"
+}
