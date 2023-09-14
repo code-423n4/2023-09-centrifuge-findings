@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0xkazim",
+  "risk": "2",
+  "title": "wrong math in the `processDeposit` function lead to send zero TT to users or send less than their deserved TT",
+  "issueId": 744,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/744"
+}
