@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0xAsen",
+  "risk": "2",
+  "title": "Anyone can call deposit and mint on behalf of another user even if the user doesn't want it",
+  "issueId": 406,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/406"
+}
