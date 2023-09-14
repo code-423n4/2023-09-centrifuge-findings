@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "pep7siup",
+  "risk": "2",
+  "title": "`Root.denyContract` Function Can Remove Itself From The System Admin Rendering The System Inoperable",
+  "issueId": 614,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/614"
+}
