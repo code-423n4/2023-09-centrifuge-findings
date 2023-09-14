@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0xTiwa",
+  "risk": "2",
+  "title": "Not enough valid checks in the Factory.sol",
+  "issueId": 789,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/789"
+}
