@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "Mike_Bello90",
+  "risk": "3",
+  "title": "Vulnerability: An Attacker can steal Tranche Tokens and Drain the Pool   / Contract: InvestmentManager.",
+  "issueId": 596,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/596"
+}
