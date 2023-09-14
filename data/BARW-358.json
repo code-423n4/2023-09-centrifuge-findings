@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "BARW",
+  "risk": "3",
+  "title": "Missing check in `Root.denyContract()` if the contract removed as ward is the root itself",
+  "issueId": 358,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/358"
+}
