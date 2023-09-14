@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "MadWookie",
+  "risk": "2",
+  "title": "A DelayedAdmin ward can bypass `root.delay` when adding additional wards to Root",
+  "issueId": 325,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/325"
+}
