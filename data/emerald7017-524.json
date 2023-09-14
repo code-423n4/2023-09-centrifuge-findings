@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "emerald7017",
+  "risk": "3",
+  "title": "Lack of explicit initialization checks in the constructor. contract initialization.",
+  "issueId": 524,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/524"
+}
