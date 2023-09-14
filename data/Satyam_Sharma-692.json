@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "Satyam_Sharma",
+  "risk": "2",
+  "title": "wrong value given as input can cause all calculation to execute in a wrong way",
+  "issueId": 692,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/692"
+}
