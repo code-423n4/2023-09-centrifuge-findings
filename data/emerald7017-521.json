@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "emerald7017",
+  "risk": "2",
+  "title": "Mutating function parameters can make the code less clear and may lead to unexpected behavior.",
+  "issueId": 521,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/521"
+}
