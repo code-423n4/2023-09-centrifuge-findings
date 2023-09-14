@@ -8,6 +8,19 @@ If the wards array is empty, the LP will permanently have no wards and will need
     require(awards.length != 0, "revert string");
 ```
 
+### InvestmentManager.sol: Pools are not fully ERC4626 compliant
+
+According to [EIP-4626](https://eips.ethereum.org/EIPS/eip-4626), functions with the purpose of calculating how many tokens someone will earn by withdrawing shares and how many shares someone earns by depositing X tokens should be rounded up, however the protocol is using the same logic as `previewDeposit` and `previewRedeem`, which is to round down.
+
+In all functions, `_calculateCurrencyAmount()` is called, with the following lines of code:
+
+```
+uint256 currencyAmountInPriceDecimals = _toPriceDecimals(
+            trancheTokenAmount, trancheTokenDecimals, liquidityPool
+        ).mulDiv(price, 10 ** PRICE_DECIMALS, MathLib.Rounding.Down);
+```
+As a result, all calculations are rounded down. In order to fix this, create a conditional that allows you to choose whether the function rounds up or down.
+
 ### Escrow.sol: Transactions from/to it will stop working if a ward modifies the approval
 
 The approval function below can be found in the escrow contract:
