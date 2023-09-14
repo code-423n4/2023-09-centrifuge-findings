@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "inzinko",
+  "risk": "2",
+  "title": "A scheduledRely can still be canceled after MAX_DELAY",
+  "issueId": 745,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/745"
+}
