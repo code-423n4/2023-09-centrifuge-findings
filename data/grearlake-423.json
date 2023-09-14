@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "grearlake",
+  "risk": "2",
+  "title": "Math rounding in LiquidityPool#previewMint and LiquidityPool#previewWithdraw is not EIP-4626 compatible",
+  "issueId": 423,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/423"
+}
