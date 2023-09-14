@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0x3b",
+  "risk": "2",
+  "title": "For [processRedeem](https://github.com/code-423n4/2023-09-centrifuge/blob/main/src/InvestmentManager.sol#L489-L507) it is not required to be a member ",
+  "issueId": 431,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/431"
+}
