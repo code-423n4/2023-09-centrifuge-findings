@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "seerether",
+  "risk": "3",
+  "title": "simply taking the ratio of maxDeposit and maxMint to calculate the deposit price  could allow manipulation",
+  "issueId": 547,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/547"
+}
