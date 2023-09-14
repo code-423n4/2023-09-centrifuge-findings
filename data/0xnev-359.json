@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0xnev",
+  "risk": "2",
+  "title": "[M-04] `LiquidityPool.requestDepositWithPermit()`: Request deposits with permit can be broken for asset tokens that do not follow ERC2612 standard permit function",
+  "issueId": 359,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/359"
+}
