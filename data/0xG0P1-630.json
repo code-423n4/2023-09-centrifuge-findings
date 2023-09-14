@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0xG0P1",
+  "risk": "2",
+  "title": "The `scheduleRely` function in the `Root.sol` is not validating input properly",
+  "issueId": 630,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/630"
+}
