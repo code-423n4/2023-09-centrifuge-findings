@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "OMEN",
+  "risk": "2",
+  "title": "lack of address(0) in updateMembers ",
+  "issueId": 654,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/654"
+}
