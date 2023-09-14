@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "mert_eren",
+  "risk": "2",
+  "title": "WETH has unexpected behaviour for requestDepositWithPermit",
+  "issueId": 407,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/407"
+}
