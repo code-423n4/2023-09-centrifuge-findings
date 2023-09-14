@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "seerether",
+  "risk": "3",
+  "title": "When decreasing the request, it doesn't verify that the decreased amount was actually requested before. This can artificially increase the allowed redemptions.",
+  "issueId": 380,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/380"
+}
