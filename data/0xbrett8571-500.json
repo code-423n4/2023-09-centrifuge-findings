@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0xbrett8571",
+  "risk": "3",
+  "title": "Lack of proper validation checks when approving token transfers on behalf of users in the `requestDepositWithPermit` and `requestRedeemWithPermit` functions.",
+  "issueId": 500,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/500"
+}
