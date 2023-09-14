@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "Vagner",
+  "risk": "3",
+  "title": "Expired members can lose their tranche tokens if they call `transferTrancheTokensToCentrifuge` or `transferTrancheTokensToEVM` in `PoolManager.sol` ",
+  "issueId": 775,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/775"
+}
