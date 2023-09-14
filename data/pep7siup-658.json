@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "pep7siup",
+  "risk": "2",
+  "title": "UserEscrow.transferOut does not work with UNI, COMP which only has the allowance capacity of uint96.max",
+  "issueId": 658,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/658"
+}
