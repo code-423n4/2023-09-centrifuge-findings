@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "hals",
+  "risk": "2",
+  "title": "`PoolManager.deployLiquidityPool` function: missing tranche token deployment",
+  "issueId": 527,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/527"
+}
