@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0xfuje",
+  "risk": "2",
+  "title": "Failed cross-chain transactions can be replayed which can lead to possible exploits",
+  "issueId": 392,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/392"
+}
