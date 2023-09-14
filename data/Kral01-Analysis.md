@@ -33,8 +33,10 @@ The audit took a total of 4 days:
 
 1st Day: Understanding the protocol's documentation, process flow, and end user flow, and taking notes and drawing diagrams. 
 2nd Day: Linking the documentation's logic to the codebase by following the user's entry point, scanning for vulnerabilities by executing the user flow, taking notes of potential vulnerabilities, and reading reports for similar vault-based protocols. 
-3rd Day: Focusing on different types of attack vectors and documenting found vulnerabilities. 
-4th Day: Summarizing the audit by completing the QA report and analysis.
+3rd Day: Focusing on different types of attack vectors and documenting found vulnerabilities also reading the tests provided some insight into potential vulnerability and edge cases. 
+4th Day: Summarizing the audit by completing the QA report and analysis .
+
+
 
 
 
