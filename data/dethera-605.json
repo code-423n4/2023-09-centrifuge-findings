@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "dethera",
+  "risk": "2",
+  "title": "Variable name shadowing",
+  "issueId": 605,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/605"
+}
