@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "lsaudit",
+  "risk": "2",
+  "title": "`previewMint` and `previewWithdraw` should round up instead of down",
+  "issueId": 318,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/318"
+}
