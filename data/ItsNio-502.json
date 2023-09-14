@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "ItsNio",
+  "risk": "3",
+  "title": "`decreaseDepositRequest()` and `handleExecutedDecreaseInvestOrder()` lack financial bookeeping present in other functions",
+  "issueId": 502,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/502"
+}
