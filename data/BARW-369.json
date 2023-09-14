@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "BARW",
+  "risk": "2",
+  "title": "No option to cancel a deposit request if user is no longer on the members list",
+  "issueId": 369,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/369"
+}
