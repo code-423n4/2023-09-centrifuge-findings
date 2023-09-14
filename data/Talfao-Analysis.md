@@ -67,12 +67,17 @@ If the router is compromised, any message can be delivered to the system, which 
 Robust monitoring of every part of the system is needed in case of asynchronous architecture to mitigate any possible malicious behaviour.
 Also, Multisig wallets should be used for peripheral EOA accounts such as delayed admin or paused admin.
 
-# 4. Time spent
+## 4. Other recommendation
+It is good to consider recent events regarding the ERC20 standard. It is known that functions such as increase/decrease allowance are not part of this standard, and it was admitted by Openzeppelin removing them from their ERC20.sol contract. I recommend similarly if these functions are not needed as they are used in connection with phishing attacks.
+
+# 5. Time spent
 I have spent four days with this audit.
 1. On the first day, I read all docs provided for this contest.
 2. On the second day, I checked the code and tests.
 3. On the third day, I tried different attack scenarios which came to my mind but without success. Reread a code and try to link functionality together.
 4. On the fourth day, I summarised the audit via this analysis report. 
+
+
 
 
 
