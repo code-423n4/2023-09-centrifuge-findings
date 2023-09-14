@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "DavylVinyl",
+  "risk": "2",
+  "title": "Several storage variables in the contract are declared as public, which means their state can be read by anyone. This exposure of sensitive contract data can pose security and privacy risks.",
+  "issueId": 720,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/720"
+}
