@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "inzinko",
+  "risk": "3",
+  "title": "Rouge ward can remove auth permission from other wards and then remove themselves",
+  "issueId": 705,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/705"
+}
