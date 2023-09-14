@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "georgits",
+  "risk": "2",
+  "title": "InvestmentManager won't work with liquidity pools that have tranche/currency tokens with more than 18 decimals",
+  "issueId": 629,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/629"
+}
