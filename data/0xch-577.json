@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0xch",
+  "risk": "2",
+  "title": "Lack of Contract Address Validation in executeScheduledRely Function",
+  "issueId": 577,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/577"
+}
