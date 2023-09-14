@@ -27,6 +27,9 @@ consider adding a slippage protection parameter such as (minAmountOut , or allow
 
 this threshold can be added in the functions `deposit()` , `mint()` , `redeem()` and `withdraw()` on the liquidity pool contract . 
 
+## Time Spent 
+60 hours 
+
 
 
 ### Time spent:
