@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0xfuje",
+  "risk": "2",
+  "title": "Cross-chain transfer can lead to lost user funds or malicious user stealing funds in case of an incorrectly configured currency index",
+  "issueId": 441,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/441"
+}
