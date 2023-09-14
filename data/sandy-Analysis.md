@@ -71,5 +71,7 @@ Centrifuge is the institutional platform for credit onchain. The protocol is wel
 
 40 Hours
 
+
+
 ### Time spent:
 40 hours
