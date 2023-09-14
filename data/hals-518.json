@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "hals",
+  "risk": "2",
+  "title": "Protocol contracts can't be deployed on Arbitrum chain",
+  "issueId": 518,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/518"
+}
