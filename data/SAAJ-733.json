@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "SAAJ",
+  "risk": "2",
+  "title": "increaseAllowance and decreaseAllowance has been deprecated by OZ",
+  "issueId": 733,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/733"
+}
