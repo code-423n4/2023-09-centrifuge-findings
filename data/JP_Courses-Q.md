@@ -20,3 +20,33 @@ In the short term, it is essential to thoroughly document the possibility of "pe
 
 In the long term, ongoing vigilance is crucial. Monitoring the blockchain for signs of front-running attempts and promptly responding to potential threats is essential for maintaining the security and integrity of the ERC-4626 compatible contract "LiquidityPool" and the stability of the tranches of pools it facilitates.
 
+=======
+submitted above.
+=======
+
+1. QA: LiquidityPool::constructor() - Input validation: How will the protocol avoid to pass existing/invalid `poolId_` or `trancheId_` parameters in constructor() during LiquidityPool deployment?
+
+https://github.com/code-423n4/2023-09-centrifuge/blob/882f620bd3e92015f30af74266b70a1827db97fb/src/LiquidityPool.sol#L86
+
+2. QA: LiquidityPool::constructor() - Input validation: Seems there are no checks to ensure that same `asset` & LP pool combo doesnt already exist for same tranche(RWA) centrifuge pool, and also no address(0) check nor any check for decimals over 18.
+
+https://github.com/code-423n4/2023-09-centrifuge/blob/882f620bd3e92015f30af74266b70a1827db97fb/src/LiquidityPool.sol#L88
+
+3. QA: LiquidityPool::constructor() - Input validation: Consider adding a check to ensure asset & share token addresses are not the same. Also, no address(0) check.
+
+https://github.com/code-423n4/2023-09-centrifuge/blob/882f620bd3e92015f30af74266b70a1827db97fb/src/LiquidityPool.sol#L89
+
+4. QA: LiquidityPool::constructor() - Input validation: consider adding address(0) check for parameter `investmentManager_`.
+
+https://github.com/code-423n4/2023-09-centrifuge/blob/882f620bd3e92015f30af74266b70a1827db97fb/src/LiquidityPool.sol#L90
+
+5. QA: LiquidityPool::withApproval() - Unclear dev comment, suggest to improve for clarity & to eliminate any confusion.
+
+https://github.com/code-423n4/2023-09-centrifuge/blob/882f620bd3e92015f30af74266b70a1827db97fb/src/LiquidityPool.sol#L96
+
+Current dev comment:
+"Either msg.sender is the owner or a ward on the contract"
+
+Recommendation:
+"Either msg.sender is the owner of the contract or msg.sender is a ward on the contract"
+
