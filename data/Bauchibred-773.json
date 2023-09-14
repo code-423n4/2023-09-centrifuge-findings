@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "Bauchibred",
+  "risk": "3",
+  "title": "User's tokens can get locked in UserEscrow.sol for an unknown duration of time... potentially forever.",
+  "issueId": 773,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/773"
+}
