@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "Mstyv3003",
+  "risk": "3",
+  "title": "InvestmentManager.requestDeposit Arbitrary send erc20",
+  "issueId": 608,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/608"
+}
