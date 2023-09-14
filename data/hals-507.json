@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "hals",
+  "risk": "2",
+  "title": "`ERC20` token: silent overflow when updating receiver balance",
+  "issueId": 507,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/507"
+}
