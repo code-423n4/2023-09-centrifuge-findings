@@ -32,3 +32,13 @@ https://github.com/code-423n4/2023-09-centrifuge/blob/512e7a71ebd9ae76384f837204
 ## Fix
 impose an require(_recipient != address(0), "you please add a recipient") check before firing the transaction.
 
+
+## Remove commented code 
+## Description
+For better clarity remove useless comments.
+## Links
+https://github.com/code-423n4/2023-09-centrifuge/blob/512e7a71ebd9ae76384f837204216f26380c9f91/src/LiquidityPool.sol#L148-L149
+## Fix
+remove the useless comments.
+
+
