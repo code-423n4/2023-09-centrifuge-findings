@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "Kral01",
+  "risk": "2",
+  "title": "Avoid the use of increaseAllowance and decreaseAllowance from ERC20 that are recently deprecated.",
+  "issueId": 498,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/498"
+}
