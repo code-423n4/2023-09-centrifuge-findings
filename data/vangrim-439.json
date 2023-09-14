@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "vangrim",
+  "risk": "2",
+  "title": "[MEDIUM] - Solidity version 0.8.21 may produce contracts that do not work on Arbitrum because of non-support for PUSH0",
+  "issueId": 439,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/439"
+}
