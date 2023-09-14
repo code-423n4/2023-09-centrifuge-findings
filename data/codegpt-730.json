@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "codegpt",
+  "risk": "2",
+  "title": "Missing update on `_calculateDomainSeparator` when name changed",
+  "issueId": 730,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/730"
+}
