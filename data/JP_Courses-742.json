@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "JP_Courses",
+  "risk": "3",
+  "title": "Incorrect implementation of LiquidityPool::withApproval() modifier resulting in bypassing of access control & allowing any arbitrary user/attacker to execute admin/owner/ward level functions that use this modifier.",
+  "issueId": 742,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/742"
+}
