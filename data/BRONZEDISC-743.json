@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "BRONZEDISC",
+  "risk": "2",
+  "title": "Lack of Remapping/Remove Feature for Compromised Token Address",
+  "issueId": 743,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/743"
+}
