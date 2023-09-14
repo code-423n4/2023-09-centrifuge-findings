@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "jkoppel",
+  "risk": "2",
+  "title": "Liquidity pools cannot work with tokens of more than 18 decimals",
+  "issueId": 721,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/721"
+}
