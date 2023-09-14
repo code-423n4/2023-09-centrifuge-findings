@@ -16,7 +16,8 @@ Router has the possibility of risk, such as cross-chain bridge attack, cross-cha
 
 The Router can construct arbitrary messages, such as a Transfer message. The gateway.handle finally invokes the poolManager and sends the token to the specified recipient.
 
-The Router can be removed by the administrator, but the router has too high permission, for example, all tokens in the pool can be transferred out.
+The Router can be removed by the administrator, but the router has too high permission, it can transfer all the tokens in the pool. 
+If something goes wrong, it is too late to remove the Router after the token is transferred.
 
 ```solidity
     modifier onlyIncomingRouter() {
