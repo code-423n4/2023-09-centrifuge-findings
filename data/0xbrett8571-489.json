@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0xbrett8571",
+  "risk": "2",
+  "title": "The `TrancheToken` contract's `approve` function is set up to always return `false`, simulating a failure.",
+  "issueId": 489,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/489"
+}
