@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0xkazim",
+  "risk": "2",
+  "title": "Mismatched Parameter Ordering Leading to Data Handling Issues for request redeem functionality ",
+  "issueId": 691,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/691"
+}
