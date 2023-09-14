@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "ItsNio",
+  "risk": "2",
+  "title": "`handleExecutedDecreaseInvestOrder()` missing check present in other similar functions in InvestmentManager.sol",
+  "issueId": 503,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/503"
+}
