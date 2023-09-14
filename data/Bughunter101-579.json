@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "Bughunter101",
+  "risk": "2",
+  "title": "`Auth.deny()`:If `wards.length == 1` ,and the caller set the user = `msg.sender` , it will cause contract to be useless",
+  "issueId": 579,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/579"
+}
