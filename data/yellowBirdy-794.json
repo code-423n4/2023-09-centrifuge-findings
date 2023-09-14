@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "yellowBirdy",
+  "risk": "2",
+  "title": "There is no concept of a requestDeposit, requestRedeem receipt made on the source chain, resulting in no recovery proces escrowed funds in the event of bridge or Centrifuge fall.",
+  "issueId": 794,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/794"
+}
