@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "sandy",
+  "risk": "2",
+  "title": "``withApproval()`` modifier doesn't work as expected.",
+  "issueId": 556,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/556"
+}
