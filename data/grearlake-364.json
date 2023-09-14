@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "grearlake",
+  "risk": "2",
+  "title": "Removed member still able to withdraw currency token when epoch complete after being removed from list",
+  "issueId": 364,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/364"
+}
