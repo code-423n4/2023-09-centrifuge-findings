@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "nmirchev8",
+  "risk": "2",
+  "title": "ERC20 Token Implementation: Name change could result in signature verification failure because of the domain separator mismatch",
+  "issueId": 426,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/426"
+}
