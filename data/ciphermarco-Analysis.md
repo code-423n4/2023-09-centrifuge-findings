@@ -349,7 +349,8 @@ Supported by this architecture lies the liquidity pools. These liquidity pools c
 whether it's on a Layer 1 or Layer 2, in response to market demand. All of these systems are ultimately interconnected with the Centrifuge chain, which
 holds the responsibility of managing the Real-World Assets (RWA) pools:
 
-![Liquidity Pools](https://gist.githubusercontent.com/ciphermarco/334f9f47ad2a124585bc79e5396d32e2/raw/475a2c88ebc34578e8d70d52fe507f15b6c44608/liquidity-pools.png)
+![Liquidity Pools](https://gist.githubusercontent.com/ciphermarco/438959a403457ab4bb4fc54838cde63c/raw/4a6da758fcb013c6a954d9309634c972034b1a0e/liquidity-pools.png)
+(https://gist.githubusercontent.com/ciphermarco/438959a403457ab4bb4fc54838cde63c/raw/4a6da758fcb013c6a954d9309634c972034b1a0e/liquidity-pools.png)
 
 Every tranche, symbolized by a Tranche Token (TT), represents varying levels of risk exposure for investors. For an overview of the authorization relations,
 you can refer to the [Ward Pattern section](#31-ward-pattern), and to understand the communication flow, visit the [Pausing the Protocol section](#33-pausing-the-protocol).
@@ -488,6 +489,8 @@ Auditing this codebase and its architectural choices has been a delightful exper
 implemented simplifications, and I believe this project has successfully struck a harmonious balance between the imperative for
 simplicity and the challenge of managing complexity. I hope that I have been able to offer a valuable overview of the methodology utilised
 during the audit of the contracts within scope, along with pertinent insights for the project team and any party interested in analysing this codebase.
+
+
 
 
 
