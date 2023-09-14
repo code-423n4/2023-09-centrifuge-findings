@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "ayden",
+  "risk": "2",
+  "title": "increaseAllowance and decreaseAllowance is from ERC20 is deprecated",
+  "issueId": 340,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/340"
+}
