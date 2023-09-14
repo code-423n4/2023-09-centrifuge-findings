@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "emerald7017",
+  "risk": "3",
+  "title": "Vulnerability in the membership check function, allowing attackers to bypass membership checks and perform actions they should not be allowed to execute.",
+  "issueId": 530,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/530"
+}
