@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "inzinko",
+  "risk": "3",
+  "title": "Malicious RestrictionManger can be used to verify Tranche Members",
+  "issueId": 729,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/729"
+}
