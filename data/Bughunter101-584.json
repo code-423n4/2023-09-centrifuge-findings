@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "Bughunter101",
+  "risk": "2",
+  "title": "`RestrictionManager.updateMembers()` is useless",
+  "issueId": 584,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/584"
+}
