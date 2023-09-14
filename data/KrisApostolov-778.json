@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "KrisApostolov",
+  "risk": "2",
+  "title": "The price update timestamp  doesn't get checked, allowing for the use of stale prices",
+  "issueId": 778,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/778"
+}
