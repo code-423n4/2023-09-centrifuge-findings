@@ -10,4 +10,18 @@ https://github.com/code-423n4/2023-09-centrifuge/blob/512e7a71ebd9ae76384f837204
 
 ## Remediation
 
-All declared events should be used within the contract or removed to avoid dead code, also since both **DelayedAdmin** and **PauseAdmin** inherit from **Auth**, moving the event to **Auth** makes it available to any contract that inherits from **Auth**, which could be a useful optimization if the event is intended for broad use. Additionally that **Root** also has an event **File** and inherits from **Auth**, so if this event isn't redundant can be removed to Auth for this contract too.
+Remove unused event, or move to base contract, to prevent unused code.
+
+# Issue N2: Redundant Initialization
+
+## Description
+
+In the given code snippet, the paused state variable is explicitly initialized to false. In Solidity, state variables are automatically initialized to their default values, which for boolean types is false. Explicitly setting this variable to false is redundant and does not add any functional value to the code. It also unnecessarily increases the bytecode size slightly, leading to a minor increase in deployment costs.
+
+## Code Snippet
+
+https://github.com/code-423n4/2023-09-centrifuge/blob/512e7a71ebd9ae76384f837204216f26380c9f91/src/Root.sol#L23
+
+## Remediation
+
+Remove the explicit initialization of the paused variable. The Solidity compiler will automatically initialize it to false.
