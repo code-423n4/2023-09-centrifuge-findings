@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0xG0P1",
+  "risk": "2",
+  "title": "Not Validating the return value ",
+  "issueId": 612,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/612"
+}
