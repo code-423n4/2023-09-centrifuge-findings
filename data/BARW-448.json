@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "BARW",
+  "risk": "3",
+  "title": "Pausing the `Root` does not pause the redemption of tranch tokens that have been approved through the router",
+  "issueId": 448,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/448"
+}
