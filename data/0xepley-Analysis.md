@@ -1,6 +1,8 @@
 ## Any comments for the judge to contextualize your findings:
+My primary objective is to enhance the gas efficiency, find low/QA and cost-effectiveness of the protocol. Throughout my analysis, I have diligently pursued opportunities to optimize gas and have found alot of QA reports but most of them are already discovered in bot-race so i will not submit them, this analysis is my only submission.
 
-Certainly, it's important to note that the documentation provided describes the operational aspects and mechanisms of `Centrifuge's` revolving pools and smart contracts. Centrifuge focuses on asset originations, repayments, and the coordination of investments and redemptions within its pools. The documentation emphasizes the use of epochs, which are time periods during which investments and redemptions are locked and executed. The platform also employs a solver mechanism to optimize the execution of these transactions while adhering to certain restrictions.
+The optimizations I have identified aim to improve gas efficiency, reduce storage reads, and overall make the smart contracts more cost-effective to deploy and interact with on the blockchain
+
 
 I don't have any more finding to so there isn't anything that i would like to say.
 
@@ -21,6 +23,8 @@ To evaluate the codebase of Centrifuge's smart contracts, I followed these steps
 
 
 ## Codebase quality analysis:
+
+Centrifuge focuses on asset originations, repayments, and the coordination of investments and redemptions within its pools. The documentation emphasizes the use of `epochs`, which are `time periods` during which investments and redemptions are locked and executed. The platform also employs a solver mechanism to optimize the execution of these transactions while adhering to certain restrictions.
 
 The codebase demonstrates a commendable level of quality. It adheres to best practices, employs consistent coding conventions, and utilizes meaningful variable names and comments. Moreover, extensive unit tests and proper version control practices are in place, which contribute to the overall robustness of the code. These practices instill confidence in the code's reliability and stability. Also there is alot of documentation for the project and also there are alot of diagrams that helps anyone especially `auditors` to understand this protocol.
 
@@ -62,6 +66,8 @@ Systemic risks in `Centrifuge` include:
 
 
 Note: `I don't exactly remember the time spend on this, so wrote an idea of how much I should have spend`
+
+
 
 
 
