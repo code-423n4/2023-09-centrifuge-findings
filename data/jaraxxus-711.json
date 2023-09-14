@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "jaraxxus",
+  "risk": "2",
+  "title": "ERC20 functions in LiquidityPool are not overridden",
+  "issueId": 711,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/711"
+}
