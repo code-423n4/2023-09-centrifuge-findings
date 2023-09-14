@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "seerether",
+  "risk": "3",
+  "title": "redeem price used in processRedeem will be different than the price used in previewRedeem if there are intervening deposits or redemptions that change maxWithdraw or maxRedeem. ",
+  "issueId": 401,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/401"
+}
