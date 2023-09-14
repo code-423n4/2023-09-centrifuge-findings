@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "dethera",
+  "risk": "3",
+  "title": "`approve` function can be frontrun and funds will be stolen as a result",
+  "issueId": 668,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/668"
+}
