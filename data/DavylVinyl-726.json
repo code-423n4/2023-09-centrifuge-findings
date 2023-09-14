@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "DavylVinyl",
+  "risk": "2",
+  "title": "Lack of proper Event Data Validation, event data is not always validated before being emitted",
+  "issueId": 726,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/726"
+}
