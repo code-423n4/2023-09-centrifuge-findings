@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0xStalin",
+  "risk": "2",
+  "title": "Incorrect hashing of the payload that is sent to Axelar from the Router will cause that not all messages are processed and published in the Destination Chains",
+  "issueId": 348,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/348"
+}
