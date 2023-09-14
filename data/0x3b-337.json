@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0x3b",
+  "risk": "2",
+  "title": "`transferTrancheTokens` under **PoolManager** can acidentlly make the tokens stuck in the contract",
+  "issueId": 337,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/337"
+}
