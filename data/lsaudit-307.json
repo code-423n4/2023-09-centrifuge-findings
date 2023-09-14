@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "lsaudit",
+  "risk": "2",
+  "title": "Ward can remove himself from the contract",
+  "issueId": 307,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/307"
+}
