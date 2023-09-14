@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "castle_chain",
+  "risk": "3",
+  "title": "not implementing the `nonce` when receiving and sending calls exposures the protocol to double spending and message repeating attacks , which can lead to a huge damage and loss of funds ",
+  "issueId": 322,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/322"
+}
