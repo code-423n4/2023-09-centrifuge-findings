@@ -21,8 +21,9 @@ Audit contest: `2023-09-centrifuge`
   - [3.2 The Spell Pattern](#32-the-spell-pattern)
   - [3.3 Pausing the Protocol](#33-pausing-the-protocol)
     - [3.3.1 Redundancy?](#331-redundancy)
-  - [3.4 Upgrading the Protocol](#34-upgrading-the-protocol)
-  - [3.5 Centralisation Risks](#35-centralisation-risks)
+  - [3.4 Liquidity Pools](#34-liquidity-pools)
+  - [3.5 Upgrading the Protocol](#35-upgrading-the-protocol)
+  - [3.6 Centralisation Risks](#36-centralisation-risks)
 - [4. Implementation Notes](#4-implementation-notes)
   - [4.1 General Impressions](#41-general-impressions)
   - [4.2 Composition over Inheritance](#42-composition-over-inheritance)
@@ -54,7 +55,7 @@ quality of the `README` for this audit contest, as it provides valuable insights
 the onboarding process for auditors.
 
 ### 2.2 Setup and Tests
-Setting up to execute `forge test` was remarkably straightforward, greatly enhancing the efficiency of the auditing process.
+Setting up to execute `forge test` was remarkably effortless, greatly enhancing the efficiency of the auditing process.
 With a fully functional test harness at our disposal, we not only accelerate the testing of intricate concepts and potential
 vulnerabilities but also gain insights into the developer's expectations regarding the implementation. Moreover, we can deliver
 more value to the project by incorporating our proofs of concept into its tests wherever feasible.
@@ -249,7 +250,7 @@ scenarios is outlined below:
 
 The issue I have identified is that the `DelayedAdmin`, in its current form, does not incorporate any functions to `PauseAdmin.removePauser`.
 Given that I believe this deviates from a critical aspect of the protocol's security model, I have chosen to report this discovery with a Medium
-severity rating. However, I acknowledge that it could be argued as more appropriate for a Low severity rating if it is ultimately deemed a simple
+severity rating. However, I acknowledge that it could be argued as more appropriate for a Low severity rating if it is ultimately deemed a mere
 deviation from the specification. I have expressed my viewpoint in the issue report, and I am confident that it will be evaluated with care
 and a comprehensive consideration of the real-world risks it may present, which might diverge from my own assessment.
 
@@ -283,10 +284,6 @@ In `Root`, when one contract designates another as its ward, it always introduce
 Spell pattern, it significantly mitigates at least one of these risks.
 
 ## 3.2 The Spell Pattern
-
-By comprehending the roles of these two admins within the `ward` pattern and analysing the rescue operation, it becomes
-apparent how straightforward yet potentially powerful this pattern can be. Though, to harness its full potential more
-securely, we must delve into the Spell pattern.
 
 Having understood how these two admins fit into the `ward` pattern, and analysing the rescue operation, shows how simple and potentially
 powerful the pattern can be. But to realise its power in a more secure manner, we need to enter the Spell pattern.
@@ -340,19 +337,32 @@ the "hub" by blocking these operations, thus interrupting the flow of communicat
 It is important to highlight that both `DelayedAdmin` and `PauseAdmin` have the capability to invoke `root.pause` directly in order to
 pause the protocol. What might initially appear as redundancy seems to be, in fact, a well-considered implementation of secure compartmentalization.
 
-`DelayedAdmin` possesses a broader range of powers beyond the simple functions of `pause` and `unpause` the protocol. In
+`DelayedAdmin` possesses a broader range of powers beyond the functions to `pause` and `unpause` the protocol. In
 contrast, `PauseAdmin` primarily oversees `pausers` with the singular purpose of allowing them to pause the protocol. Considering that `DelayedAdmin`
 has the potential to cause more harm to the protocol, it should be subject to a stricter oversight, while `pausers` may adhere to a less
 stringent regime. While `PauseAdmin` can disrupt the protocol and cause damage by initiating pauses, this impact pales in comparison to what `DelayedAdmin`
 could potentially do if not restricted during the `Root`'s `delay`.
 
-### 3.4 Upgrading the Protocol
+### 3.4 Liquidity Pools
 
-Upgrades to the protocol can be achieved by utilising the Spell pattern to re-organize `wards` and "rely" links across the system. 
-To initiate an upgrade, a Spell contract is scheduled through the `root.scheduleRely` function. After the designated `delay` period,
-the upgrade can be executed using `root.executeScheduledRely` to complete its tasks in a one-shot fashion.
+Supported by this architecture lies the liquidity pools. These liquidity pools can be deployed on any EVM-compatible blockchain,
+whether it's on a Layer 1 or Layer 2, in response to market demand. All of these systems are ultimately interconnected with the Centrifuge chain, which
+holds the responsibility of managing the Real-World Assets (RWA) pools:
 
-### 3.5 Centralisation Risks
+![Liquidity Pools](https://gist.githubusercontent.com/ciphermarco/334f9f47ad2a124585bc79e5396d32e2/raw/475a2c88ebc34578e8d70d52fe507f15b6c44608/liquidity-pools.png)
+
+Every tranche, symbolized by a Tranche Token (TT), represents varying levels of risk exposure for investors. For an overview of the authorization relations,
+you can refer to the [Ward Pattern section](#31-ward-pattern), and to understand the communication flow, visit the [Pausing the Protocol section](#33-pausing-the-protocol).
+
+### 3.5 Upgrading the Protocol
+
+Another interesting aspect of the architecture is the deliberate choice to use contract migrations instead of upgradeable proxy patterns.
+Upgrades to the protocol can be achieved by utilising the Spell pattern to re-organize `wards` and "rely" links across the system. To initiate an upgrade,
+a Spell contract is scheduled through the `root.scheduleRely` function. After the specified `delay` period, the upgrade can be executed by using
+`root.executeScheduledRely` to complete its tasks in a one-shot fashion. Should the need to cancel the upgrade arise, `root.cancelRely` can be called 
+to cancel the scheduled rely operation."
+
+### 3.6 Centralisation Risks
 
 In the context of this analysis, it is imperative to underscore that the usage of "centralisation" specifically pertains to the potential single point of
 failure within the project team's assets, such as the scenario where only one key needs to be compromised in order to compromise the whole system.
@@ -474,8 +484,10 @@ choice over potentially risky outdated versions.
 
 ## 5. Conclusion
 
-I hope that I have been able to offer a valuable overview of the methodology utilised during the audit of the contracts within scope,
-along with pertinent insights for the project team and any party interested in analysing this codebase.
+Auditing this codebase and its architectural choices has been a delightful experience. Inherently complex systems greatly benefit from strategically
+implemented simplifications, and I believe this project has successfully struck a harmonious balance between the imperative for
+simplicity and the challenge of managing complexity. I hope that I have been able to offer a valuable overview of the methodology utilised
+during the audit of the contracts within scope, along with pertinent insights for the project team and any party interested in analysing this codebase.
 
 
 ### Time spent:
