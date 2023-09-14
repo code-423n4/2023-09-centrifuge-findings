@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "turvy_fuzz",
+  "risk": "2",
+  "title": "transferIn() is susceptible to a front-running attack",
+  "issueId": 795,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/795"
+}
