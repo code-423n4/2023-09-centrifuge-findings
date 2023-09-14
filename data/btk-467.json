@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "btk",
+  "risk": "2",
+  "title": "LiquidityPool is not 4626 compatible",
+  "issueId": 467,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/467"
+}
