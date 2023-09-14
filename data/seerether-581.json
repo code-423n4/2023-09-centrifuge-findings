@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "seerether",
+  "risk": "3",
+  "title": "the pool could burn tokens without redeeming currency to artificially alter the price",
+  "issueId": 581,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/581"
+}
