@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "Ch_301",
+  "risk": "2",
+  "title": "The users could lose their Tranche Tokens after triggering `transferTrancheTokensToEVM()`",
+  "issueId": 415,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/415"
+}
