@@ -1,0 +1,8 @@
+{
+  "contest": 285,
+  "handle": "0xnev",
+  "risk": "2",
+  "title": "[M-02] `InvestmentManager._redeem()` : Missing ERC1404 check for user redeeming",
+  "issueId": 356,
+  "issueUrl": "https://github.com/code-423n4/2023-09-centrifuge-findings/issues/356"
+}
