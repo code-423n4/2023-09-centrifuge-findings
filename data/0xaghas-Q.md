@@ -26,7 +26,7 @@ https://github.com/code-423n4/2023-09-centrifuge/blob/512e7a71ebd9ae76384f837204
 
 Remove the explicit initialization of the paused variable. The Solidity compiler will automatically initialize it to false.
 
-# Issue N2: Missing Check on delay in the constructor
+# Issue N3: Missing Check on delay in the constructor
 
 ## Description
 
